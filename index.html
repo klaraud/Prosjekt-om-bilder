@@ -9,7 +9,74 @@
     <link rel="stylesheet" href="index.css">
     <style>
 
-        
+
+        .forside{
+            background-image: url("bilder/forsidebilde.jpg");
+            height: 100vh;
+            background-size: cover; 
+            background-position: center;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr ;
+            height: 100vh;
+        }
+        #forside{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: xx-large;
+        }
+
+        #trettito{
+            
+            grid-column: 1/5;
+            grid-row: 1/3;
+        }
+
+        #forklarertrettito{
+            grid-row: 1/3;
+            grid-column: 5/9;
+            background-color: skyblue;
+            color: white;
+        }
+
+        #trettitre{
+            grid-column: 5/9;
+            grid-row: 3/5;
+        }
+
+        #forklarertrettitre{
+            grid-column: 1/5;
+            grid-row: 3/5;
+            background-color: skyblue;
+            color: white;
+        }
+
+        #illustrasjonsbilde{
+            grid-column: 1/5;
+            grid-row: 1/5;
+            
+        }
+        #trettifire{
+            grid-column: 5/9;
+            grid-row: 1/3;
+        }
+
+        #forklarertrettifire{
+            grid-row: 3/5;
+            grid-column: 5/9;
+            background-color: skyblue;
+            color: white;
+
+        }
+       
+    
+
+>>>>>>> fadcdb012d2504e3f0f180198ec4e39a14b9ef2f
     </style>
 
 </head>
