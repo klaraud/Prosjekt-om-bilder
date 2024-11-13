@@ -10,9 +10,6 @@
         
         .bildepunkter-forside {
             background-image: url(bilder/fjell.jpg);
-        }
-
-        .bildepunkter-forside {
             height: 100vh;
             background-size: cover;
             position: relative;
@@ -23,10 +20,9 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 60px;
+            font-size: 50px;
             color: white;
         }
-
 
         .bildepunkter-container > div {
             background-color: skyblue;
@@ -35,7 +31,7 @@
         .bildepunkter-container {
             display: grid;
             grid-template-columns: auto auto;
-            grid-template-rows: 300px 300px;
+            grid-template-rows: 400px 400px;
             gap: 1px;
         }
 
@@ -43,6 +39,21 @@
 
 </head>
 <body>
+
+    <header>
+        <nav class="navigeringdiv">
+            <a href="index.html" class="hjem"> Hjem </a>
+            <a href="bildepunkter.html"> Bildepunkter </a>
+            <a href="Lagring-og-minne.html"> Lagring og minne  </a>
+            <a href="farger-rgb.html"> Farger - RGB </a>
+            <a href="overføring-fargebilder.html"> Lagring og oferføring av fargebilder</a>
+            <a href="kompresjon.html"> Kompresjon av bilder  </a>
+            <a href="tapsfri-kompresjon.html"> Tapsfri kompresjon </a>
+            <a href="destruktiv-kompresjon.html"> Destruktiv kompresjon</a>
+            <a href="filstørrelse.html"> Filstørrelse </a>
+        </nav>
+    </header>
+
     <div class="bildepunkter-forside">
         <div class="bildepunkter-h1">
             <h1>Bildepunkter</h1>
