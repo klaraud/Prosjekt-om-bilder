@@ -9,34 +9,10 @@ img {
     height: 100%;
 }
 
-footer{
-    background-color: blue;
-    height: 50vh;
-    border-top: 2px solid grey;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 80px;
-
-}
-
-footer h1{
-    margin-bottom: 30px;
-}
-
-footer li{
-    margin-bottom: 20px;
-
-}
-
-footer>div{
-    margin-left: -50px;
-}
-
 nav {
    
 }
-        .navigeringdiv{
+.navigeringdiv{
 	background-color: #85c7f2ff;
 	display: grid;
 	grid-template-columns:  auto repeat(4,1fr);
@@ -79,3 +55,21 @@ color: black;
     --lysblå: #85c7f2ff;
 }
 
+.b_overføring{
+    height: 100vh;
+    background-image: url(bilder/flowe.jpg);
+    background-size: cover; 
+	background-position: center;
+    overflow: hidden;
+    opacity: 80%;
+}
+
+.overføring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(27, 27, 59);
+    font-size: xxx-large;
+
+}

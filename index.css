@@ -127,7 +127,7 @@ img {
 }
 
 footer{
-    background-color: rgb(151, 179, 223);
+    background-color: var(--lysgrønn);
     height: 50vh;
     border-top: 2px solid grey;
     display: flex;
