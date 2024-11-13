@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        h1 {
-            text-align: center;
-            font-size: 60px;
-            padding: 200px;
+        
+        .bildepunkter-forside {
+            background-image: url(bilder/fjell.jpg);
         }
 
-        .overskrift {
-            background-image: ;
+        .bildepunkter-h1 {
+            position: absolute;
+            transform: translate(-50%, -50%);
+            font-size: 60px;
         }
+
 
         .bildepunkter-container > div {
             background-color: skyblue;
@@ -32,9 +34,11 @@
 
 </head>
 <body>
-    <article class="overskrift">
-        <h1>Bildepunkter</h1>
-    </article>
+    <div class="bildepunkter-forside">
+        <div class="bildepunkter-h1">
+            <h1>Bildepunkter</h1>
+        </div>
+    </div>
 
     <div class="bildepunkter-container">
         <div></div>
