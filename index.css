@@ -1,6 +1,9 @@
 .forside{
     background-image: url("bilder/forsidebilde.jpg");
     height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
 }
 .container{
     display: grid;
@@ -14,7 +17,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: xxx-large;
+    font-size: 100px;
 }
 
 #trettito{
@@ -149,3 +152,4 @@ footer li{
 footer>div{
     margin-left: -50px;
 }
+
