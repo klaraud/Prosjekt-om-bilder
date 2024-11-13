@@ -6,73 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoved</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <style>
 
-        .forside{
-            background-image: url("bilder/forsidebilde.jpg");
-            height: 100vh;
-            background-size: cover; 
-            background-position: center;
-        }
-        .container{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-            grid-template-rows: 1fr 1fr 1fr 1fr ;
-            height: 100vh;
-        }
-        #forside{
-            display: flex;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-size: xx-large;
-        }
 
-        #trettito{
-            
-            grid-column: 1/5;
-            grid-row: 1/3;
-        }
-
-        #forklarertrettito{
-            grid-row: 1/3;
-            grid-column: 5/9;
-            background-color: skyblue;
-            color: white;
-        }
-
-        #trettitre{
-            grid-column: 5/9;
-            grid-row: 3/5;
-        }
-
-        #forklarertrettitre{
-            grid-column: 1/5;
-            grid-row: 3/5;
-            background-color: skyblue;
-            color: white;
-        }
-
-        #illustrasjonsbilde{
-            grid-column: 1/5;
-            grid-row: 1/5;
-            
-        }
-        #trettifire{
-            grid-column: 5/9;
-            grid-row: 1/3;
-        }
-
-        #forklarertrettifire{
-            grid-row: 3/5;
-            grid-column: 5/9;
-            background-color: skyblue;
-            color: white;
-
-        }
-       
-    
+        
 
     </style>
 
@@ -90,11 +28,18 @@
     <div id="trettito">
         <img src="bilder/fjell.jpg" alt="">
     </div>
-    <div id="forklarertrettito">3.2</div>
+    <div id="forklarertrettito" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+        <h2>Bildepunkter</h2>
+        <p>Les mer <a href="bildepunkter.html">her</a></p>
+
+    </div>
     <div id="trettitre">
         <img src="bilder/sunset.jpg" alt="">
     </div>
-    <div id="forklarertrettitre">3.3</div>
+    <div id="forklarertrettitre" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+        <h2>Lagring og minne</h2>
+        <p>Les mer <a href="Lagring-og-minne.html">her</a></p>
+    </div>
     
 
 </div>
@@ -103,8 +48,9 @@
     <div id="illustrasjonsbilde">
         <img src="bilder/road.jpg" alt="">
     </div>
-    <div id="forklarertrettifire">
-        3.4
+    <div id="forklarertrettifire" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+        <h2>Farger - RGB</h2>
+        <p>Les mer <a href="farger-rgb.html">her</a></p>
     </div>
     <div id="trettifire">
         <img src="bilder/boat.jpg" alt="">
@@ -113,33 +59,78 @@
 
 </div>
 
-<footer>
-    <div>  
-        <h1>Skrevet av:</h1>
-        <ul>
-            <li>Iben</li>  
-            <li>Inger</li> 
-            <li>Klara</li> 
-            <li>Silje</li> 
-        </ul>
+<div class="container"> 
+    <div id="trettifem">
+        <img src="bilder/fugl.jpg" alt="">
     </div>
-
-    <div>  
-        <h1>Kontakt oss:</h1>
-        (Mail)
+    <div id="forklarertrettifem" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+        <h2>Lagring og overføring av fargebilder</h2>
+        <p>Les mer <a href="Lagring-og-minne.html"></a>her.</p>
     </div>
-
-    <div>  
-        <h1>Her finner du oss!</h1>
-        <img src="https://www.google.com/maps/vt/data=iAo2aNc0XmRkJV8k8Jogau7czrJMku1vSIiy6kp8Xz5N9lXzrEVwleys-sXCfpSVFgJCy2nUM0pTgZvxcxvV2v_q9POExmH6PYjzX43nKSAsweaAlkr293vJOHQiRWfVA6ysCPpop5Nxp6wQO5ZPi02gF6iyiEwXBBVIubRh2hQtD8efNX-EWrMCA8XBXjSSQV84E_c2iob5NtUDIOWh_BjCC559SIZTgxHaF4QauMHGPs0AZxdX-fJLMIyfE8JXqsJqIwja7RUdo8FgnA" style="width: 400px;
-    height: auto;">
-        
+    <div id="trettiseks">
+        <img src="bilder/snofjell.jpg" alt="">
     </div>
+    <div id="forklarertrettiseks" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+        <h2>Kompresjon av bilder</h2>
+        <p>Les mer <a href="kompresjon.html">her.</a></p>
+    </div>
+    
 
-</footer>
+</div>
 
-<body>
+<div class="container">
+    <div id="illustrasjonsbilde">
+        <img src="bilder/flamingo.jpg" alt="">
+    </div>
+    <div id="forklarertrettisyv" style="display: flex; align-items: center; flex-direction: column; justify-content: center;">
+        <h2>Tapsfri kompresjon</h2>
+        <p>Les mer <a href="tapsfri-kompresjon.html">her</a> </p>
+    </div>
+    <div id="trettisyv">
+        <img src="bilder/horisont.jpg" alt="">
+    </div>
+    
 
+</div>
+
+<div class="container">
+    <div id="illustrasjonsbilde">
+        <img src="bilder/butterfly.jpg" alt="">
+    </div>
+    <div id="forklarertrettiåtte" style="display: flex; align-items: center; flex-direction: column; justify-content: center;" >
+        <h2>Destruktiv kompresjon</h2>
+        <p>les mer <a href="destruktiv-kompresjon.html">her.</a></p>
+    </div>
+    <div id="trettiåtte">
+        <img src="bilder/fall.jpg" alt="">
+    </div>
+    
+
+</div>
+
+    <footer>
+        <div>  
+            <h1>Skrevet av:</h1>
+            <ul>
+                <li>Iben</li>  
+                <li>Inger Helene</li> 
+                <li>Klara</li> 
+                <li>Silje</li> 
+            </ul>
+        </div>
+        <div>  
+            <h1>Kontakt oss:</h1>
+            (Mail)
+        </div>
+    
+        <div>  
+            <h1>Her finner du oss!</h1>
+            <img src="https://www.google.com/maps/vt/data=iAo2aNc0XmRkJV8k8Jogau7czrJMku1vSIiy6kp8Xz5N9lXzrEVwleys-sXCfpSVFgJCy2nUM0pTgZvxcxvV2v_q9POExmH6PYjzX43nKSAsweaAlkr293vJOHQiRWfVA6ysCPpop5Nxp6wQO5ZPi02gF6iyiEwXBBVIubRh2hQtD8efNX-EWrMCA8XBXjSSQV84E_c2iob5NtUDIOWh_BjCC559SIZTgxHaF4QauMHGPs0AZxdX-fJLMIyfE8JXqsJqIwja7RUdo8FgnA" style="width: 400px;
+        height: auto;">
+            
+        </div>
+    
+    </footer>  
 </body>
 
 </html>
