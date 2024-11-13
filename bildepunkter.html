@@ -30,9 +30,25 @@
 
         .bildepunkter-container {
             display: grid;
-            grid-template-columns: auto auto;
+            grid-template-columns: 600px auto;
             grid-template-rows: 400px 400px;
             gap: 1px;
+        }
+
+        #bildepunkter1 {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #bildepunkter2 {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            font-size: 20px;
         }
 
     </style>
@@ -61,10 +77,28 @@
     </div>
 
     <div class="bildepunkter-container">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div id="bildepunkter1">
+            <img style="width: 400px; height: 300px;" src=bilder/piksler.png>
+        </div>
+        <div id="bildepunkter2">
+            <p>Et digitalt bilde er et godt utgangspunkt når vi skal se mer på hvordan
+                en datamaskin fungerer. Selve bildet er tydelig og forståelig, selv
+                om teknikken inne i maskinen kan virke komplisert. Som for det meste i
+                en datamaskin gjelder det å bryte ting helt ned til 0 og 1. Derfor 
+                deler vi bildet inn i bitte små deler, jo flere dess bedre. Det er 
+                disse delene som kalles <b>piksler</b> eller <b>bildepunkter</b>. 
+                Disse bildepunktene har ikke noen fast eller standardisert størrelse.
+                Jo fler punkter du deler et bilde inn i, desto høyere blir oppløsningen
+                og dermed kvaliteten på bildet. Men da krever det også mer plass på 
+                datamaskinen. 
+            </p>
+        </div>
+        <div>
+            
+        </div>
+        <div>
+            <img src="bilder/mobil.jpg">
+        </div>
         <div></div>
     </div>
     
