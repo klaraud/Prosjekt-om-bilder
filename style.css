@@ -9,7 +9,30 @@ img {
     height: 100%;
 }
 
-/* NAV */
+footer{
+    background-color: blue;
+    height: 50vh;
+    border-top: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+
+}
+
+footer h1{
+    margin-bottom: 30px;
+}
+
+footer li{
+    margin-bottom: 20px;
+
+}
+
+footer>div{
+    margin-left: -50px;
+}
+
 nav {
    
 }
