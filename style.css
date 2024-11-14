@@ -10,8 +10,7 @@ img {
     height: 100%;
 }
 
-<<<<<<< HEAD
-=======
+
 footer{
     background-color: #85c7f2ff;
     color: white;
@@ -37,7 +36,6 @@ footer>div{
     margin-left: -50px;
 }
 
->>>>>>> 6c6b8799c8121fded81ebc8ae1329edfe6644846
 nav {
    
 }
@@ -103,7 +101,12 @@ main{
     text-align: center;
     align-items: center;
     height: 80vh;
+    padding: 10px;
 
+}
+.lego > img{
+    border: solid 5px #235789ff;
+    border-radius: 20px;
 }
 .lego > p{
     border: 5px solid #235789ff;
@@ -147,7 +150,7 @@ main{
 }
 
 .holder{
-    height: 90vh;
+    height: 70vh;
     width: 100%;
     background-color: #235789ff;
     display: flex;
@@ -159,11 +162,11 @@ main{
     margin: 40px;
     border: solid #85c7f2ff 5px;
     border-radius: 10px;
-    height: 500px;
+    height: 300px;
     text-align: center;
 }
 
-<<<<<<< HEAD
+
 .b_overføring{
     height: 100vh;
     background-image: url(bilder/flowe.jpg);
@@ -194,14 +197,10 @@ aside{
     font-size: 25px;
 
 }
-#asidek{
-    flex-direction: column;
-    height: auto;
 
-}
 
 p{
     color: white;
     margin: 10px;
 }
->>>>>>> 6c6b8799c8121fded81ebc8ae1329edfe6644846
+
