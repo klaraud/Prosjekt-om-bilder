@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    color: white;
 }
 
 img {
@@ -95,11 +96,71 @@ main{
     color: white;
     
 }
+
+.lego{
+    display: flex;
+    background-color: #85c7f2ff;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+
+}
+.lego > p{
+    border: 5px solid #235789ff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+}
 #mainlogm{
     background-image: url("bilder/sunset.jpg");
+    background-size: cover;
+    background-position: bottom;
 }
 #mainkb{
     background-image: url("bilder/snofjell.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.holderkomp{
+    display: flex;
+    background-color: #235789ff;
+    height: 40vh;
+    justify-content: center;
+}
+
+.komp{
+    display: flex;
+    height: 30vh;
+    width: 70%;
+    background-color: #235789ff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border: solid #85c7f2ff 5px;
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
+
+.holder{
+    height: 90vh;
+    width: 100%;
+    background-color: #235789ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.boks{
+    padding: 20px;
+    margin: 40px;
+    border: solid #85c7f2ff 5px;
+    border-radius: 10px;
+    height: 500px;
+    text-align: center;
 }
 
 <<<<<<< HEAD
@@ -123,7 +184,7 @@ main{
 }
 =======
 aside{
-   
+   height: 100vh;
     width: auto;
     display: flex;
     align-items: center;
@@ -135,6 +196,7 @@ aside{
 }
 #asidek{
     flex-direction: column;
+    height: auto;
 
 }
 
