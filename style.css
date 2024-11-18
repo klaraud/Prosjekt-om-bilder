@@ -166,6 +166,25 @@ main{
     text-align: center;
 }
 
+.b_overføring{
+    height: 100vh;
+    background-image: url(bilder/fugl.jpg);
+    background-size: cover; 
+	background-position: center;
+    overflow: hidden;
+    opacity: 90%;
+}
+
+.overføring{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    font-size: xxx-large;
+
+}
+
 .om{
     height: 200vh;
     background-color: rgb(225, 217, 200);
@@ -181,11 +200,12 @@ main{
 }
 
 
-
 .tre{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .tre>div{
@@ -197,7 +217,28 @@ main{
 }
 
 .og{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 40px;
+}
 
+.og>div{
+    background-color: var(--mørkblå);
+    border-radius: 10px;
+    border: 1px solid var(--lysblå);
+}
+
+.d1{
+    grid-row: 1/3;
+}
+
+.d3{
+    grid-row: 3/5;
+}
+
+.d4{
+    grid-row: 2/4;
 }
 
 @media (width < 700px){
@@ -240,24 +281,7 @@ main{
 }
 
 
-.b_overføring{
-    height: 100vh;
-    background-image: url(bilder/fugl.jpg);
-    background-size: cover; 
-	background-position: center;
-    overflow: hidden;
-    opacity: 90%;
-}
 
-.overføring{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: rgb(27, 27, 59);
-    font-size: xxx-large;
-
-}
 
 aside{
    height: 100vh;
