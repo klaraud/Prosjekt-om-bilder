@@ -157,8 +157,17 @@ footer>div{
         width: auto;
         
     }
+    #forside{
+        font-size: 60px;
+    }
     .container > div{
         min-height: 400px;
+    }
+    .container>img{
+        font-size: 0px;
+    }
+    .container> #trettito, #trettitre, #trettifire, #trettifem, #trettiseks, #bildefil, #bildefil2, #illustrasjonsbilde {
+        font-size: 0px;
     }
     }
 
