@@ -2,7 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    color: white;
+   
     font-family: "Roboto Mono";
 }
 
@@ -221,8 +221,5 @@ aside{
 }
 
 
-p{
-    color: white;
-    margin: 10px;
-}
+
 
