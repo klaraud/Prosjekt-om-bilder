@@ -125,11 +125,6 @@ footer li{
     margin-bottom: 20px;
 
 }
-<<<<<<< Updated upstream
-
-footer>div{
-    margin-left: -50px;
-}
 
 @media (width < 800px){
     .container{
@@ -139,7 +134,15 @@ footer>div{
     div > div{
         height: 100vh;
     }
-}
 
-=======
->>>>>>> Stashed changes
+    footer{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 90vh;
+    }
+
+    footer>div{
+        flex-direction: column;
+    }
+
+}
