@@ -25,6 +25,7 @@
         }
 
         .bildepunkter-body {
+            font-family: Roboto;
             background-color: #f7f7f7;
         }
 
@@ -35,12 +36,13 @@
         .bildepunkter-container {
             display: grid;
             grid-template-columns: 600px auto;
-            grid-template-rows: 400px 400px;
+            grid-template-rows: 400px 400px 400px;
             gap: 20px;
             margin: 20px;
         }
 
-        #bildepunkter1, #bildepunkter2, #bildepunkter3, #bildepunkter4 {
+        #bildepunkter1, #bildepunkter2, #bildepunkter3, #bildepunkter4, 
+        #bildepunkter5, #bildepunkter6 {
             box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
             border-radius: 8px;
         }
@@ -52,30 +54,28 @@
             align-items: center;
         }
 
-        #bildepunkter2 {
+        #bildepunkter2, #bildepunkter3, #bildepunkter6 {
             display: flex;
             justify-content: center;
             align-items: center;
             padding: 40px;
             font-size: 20px;
+        }
+        
+        #bildepunkter2 p , #bildepunkter3 p, #bildepunkter6 p {
+            color: black;
+        }
+        #bildepunkter2 b {
             color: black;
         }
 
-        #bildepunkter3 {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 40px;
-            font-size: 20px;
-            color: black;
-        }
-
-        #bildepunkter4 {
+        #bildepunkter4, #bildepunkter5 {
             justify-content: center;
             align-items: center;
             display: flex;
             background-color: white;
         }
+
        
 
     </style>
@@ -91,8 +91,6 @@
             <a href="farger-rgb.html"> Farger - RGB </a>
             <a href="overføring-fargebilder.html"> Lagring og oferføring av fargebilder</a>
             <a href="kompresjon.html"> Kompresjon av bilder  </a>
-            <a href="tapsfri-kompresjon.html"> Tapsfri kompresjon </a>
-            <a href="destruktiv-kompresjon.html"> Destruktiv kompresjon</a>
             <a href="filstørrelse.html"> Filstørrelse </a>
         </nav>
     </header>
@@ -137,7 +135,18 @@
         <div id="bildepunkter4">
             <img style="width: 500px; height: 300px;" src="bilder/peke.png">
         </div>
-        <div></div>
+
+        <div id="bildepunkter5">
+            <img style="width: 500px; height: 300px;" src="bilder/kloever.jpg">
+        </div>
+
+        <div id="bildepunkter6">
+            <p>Å gjøre bilder og illustrasjoner om til bildepunkter er det ikke bare
+                datamaskiner som har gjort. Ett av områdene hvor dette var vanlig var
+                lenge før datamaskinene kom i bruk, er innenfor strikking, søm og broderi.
+                Et mønster er på mange måter et digitalisert bilde. 
+            </p>
+        </div>
     </div>
     
     <footer>
