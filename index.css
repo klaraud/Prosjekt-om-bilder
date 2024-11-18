@@ -110,11 +110,11 @@ img {
 footer{
     background-color: var(--lysgrønn);
     height: 50vh;
-    border-top: 2px solid grey;
+    border-top: 2px solid rgb(71, 110, 83);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 80px;
+    padding-top: 70px;
 
 }
 
@@ -126,6 +126,7 @@ footer li{
     margin-bottom: 20px;
 
 }
+<<<<<<< Updated upstream
 
 footer>div{
     margin-left: -50px;
@@ -143,3 +144,5 @@ footer>div{
     }
 }
 
+=======
+>>>>>>> Stashed changes
