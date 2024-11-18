@@ -18,6 +18,7 @@
     align-items: center;
     color: white;
     font-size: 100px;
+    text-shadow: #85c7f2ff 5px 5px 5px;
 }
 
 #trettito{
@@ -134,8 +135,10 @@ footer>div{
     .container{
         display: flex;
         flex-direction: column;
+        height: auto;
+        width: auto;
     }
-    div > div{
+    .container > div{
         height: 100vh;
     }
 }

@@ -100,7 +100,7 @@ main{
 
 .lego{
     display: flex;
-    background-color: #85c7f2ff;
+    background-color: #e1b7d2ff;
     text-align: center;
     align-items: center;
     height: 80vh;
@@ -179,7 +179,7 @@ main{
     #mainkb{
         font-size: auto;
     }
-    
+
     
 }
 
@@ -225,8 +225,5 @@ aside{
 }
 
 
-p{
-    color: white;
-    margin: 10px;
-}
+
 
