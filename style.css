@@ -35,10 +35,6 @@ footer li{
 
 }
 
-footer>div{
-    margin-left: -50px;
-}
-
 nav {
    
 }
@@ -195,11 +191,11 @@ main{
 
 .b_overføring{
     height: 100vh;
-    background-image: url(bilder/flowe.jpg);
+    background-image: url(bilder/fugl.jpg);
     background-size: cover; 
 	background-position: center;
     overflow: hidden;
-    opacity: 80%;
+    opacity: 90%;
 }
 
 .overføring{
