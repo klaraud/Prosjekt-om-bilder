@@ -112,7 +112,7 @@ main{
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #mainlogm{
     background-image: url("bilder/sunset.jpg");
@@ -135,7 +135,7 @@ main{
 
 .komp{
     display: flex;
-    height: 30vh;
+    height: auto;
     width: 70%;
     background-color: #235789ff;
     flex-direction: column;
@@ -150,7 +150,7 @@ main{
 }
 
 .holder{
-    height: 70vh;
+    height: auto;
     width: 100%;
     background-color: #235789ff;
     display: flex;
@@ -185,6 +185,24 @@ main{
         flex-direction: column;
         height: auto;
         height: auto;
+    }
+}
+
+@media (width <600px){
+    .holder{
+        height: auto;
+    }
+    .holderkomp{
+        height: auto;
+    }
+    .komp{
+        height: auto;
+    }
+    .boks{
+        height:auto;
+    }
+    #mainkb > h1{
+        font-size: 60px;
     }
 }
 
