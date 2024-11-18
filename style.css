@@ -3,7 +3,10 @@
     margin: 0px;
     box-sizing: border-box;
     color: white;
+    font-family: "Roboto Mono";
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 img {
     width: 100%;
@@ -30,10 +33,6 @@ footer h1{
 footer li{
     margin-bottom: 20px;
 
-}
-
-footer>div{
-    margin-left: -50px;
 }
 
 nav {
@@ -119,6 +118,7 @@ main{
     background-image: url("bilder/sunset.jpg");
     background-size: cover;
     background-position: bottom;
+    text-shadow: #235789ff 5px 5px 5px;
 }
 #mainkb{
     background-image: url("bilder/snofjell.jpg");
@@ -162,18 +162,40 @@ main{
     margin: 40px;
     border: solid #85c7f2ff 5px;
     border-radius: 10px;
-    height: 300px;
+    height: auto;
     text-align: center;
+}
+
+@media (width < 700px){
+    .holder{
+        display: flex;
+        flex-direction: column ;
+        height: auto;
+    }
+    #mainkb{
+        font-size: auto;
+    }
+    
+    
+}
+
+@media (width < 840px){
+    .lego{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        height: auto;
+    }
 }
 
 
 .b_overføring{
     height: 100vh;
-    background-image: url(bilder/flowe.jpg);
+    background-image: url(bilder/fugl.jpg);
     background-size: cover; 
 	background-position: center;
     overflow: hidden;
-    opacity: 80%;
+    opacity: 90%;
 }
 
 .overføring{
