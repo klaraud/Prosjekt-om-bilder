@@ -107,6 +107,7 @@
     background-color: #e1b7d2ff;
     text-align: center;
     align-items: center;
+    color: white;
 }
 
 
@@ -144,13 +145,11 @@ footer li{
     margin-bottom: 20px;
 
 }
-<<<<<<< HEAD
-=======
 
-footer>div{
-    margin-left: -50px;
-}
->>>>>>> 957d95c1b9220c200aec8012563c852123f1033a
+
+
+
+
 
 @media (width < 800px){
     .container{
@@ -172,21 +171,19 @@ footer>div{
     .container> #trettito, #trettitre, #trettifire, #trettifem, #trettiseks, #bildefil, #bildefil2, #illustrasjonsbilde {
         font-size: 0px;
     }
-    }
+    
 
-<<<<<<< HEAD
+
     footer{
         flex-direction: column;
         justify-content: flex-start;
-        height: 90vh;
+        height: auto;
     }
 
     footer>div{
         flex-direction: column;
+        margin-left: 20px;
     }
 
 }
-=======
 
-
->>>>>>> 957d95c1b9220c200aec8012563c852123f1033a
