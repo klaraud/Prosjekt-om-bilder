@@ -107,6 +107,7 @@
     background-color: #e1b7d2ff;
     text-align: center;
     align-items: center;
+    color: white;
 }
 
 
@@ -145,9 +146,10 @@ footer li{
 
 }
 
-footer>div{
-    margin-left: -50px;
-}
+
+
+
+
 
 @media (width < 800px){
     .container{
@@ -169,7 +171,19 @@ footer>div{
     .container> #trettito, #trettitre, #trettifire, #trettifem, #trettiseks, #bildefil, #bildefil2, #illustrasjonsbilde {
         font-size: 0px;
     }
+    
+
+
+    footer{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
     }
 
+    footer>div{
+        flex-direction: column;
+        margin-left: 20px;
+    }
 
+}
 

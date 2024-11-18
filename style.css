@@ -3,7 +3,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    color: white;
+   
+    font-family: "Roboto Mono";
 }
 
 
@@ -100,6 +101,7 @@ main{
     align-items: center;
     height: 80vh;
     padding: 10px;
+    color: white;
 
 }
 .lego > img{
@@ -111,7 +113,7 @@ main{
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #mainlogm{
     background-image: url("bilder/sunset.jpg");
@@ -130,11 +132,12 @@ main{
     background-color: #235789ff;
     height: 40vh;
     justify-content: center;
+    color: white;
 }
 
 .komp{
     display: flex;
-    height: 30vh;
+    height: auto;
     width: 70%;
     background-color: #235789ff;
     flex-direction: column;
@@ -149,7 +152,7 @@ main{
 }
 
 .holder{
-    height: 70vh;
+    height: auto;
     width: 100%;
     background-color: #235789ff;
     display: flex;
@@ -163,6 +166,41 @@ main{
     border-radius: 10px;
     height: auto;
     text-align: center;
+    color: white;
+}
+
+.om{
+    height: 200vh;
+    background-color: rgb(225, 217, 200);
+    padding: 30px;
+}
+
+.ot{
+    background-color: var(--mørkgrønn);
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid var(--lysgrønn);
+
+}
+
+
+
+.tre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tre>div{
+    background-color: var(--lysgrønn);
+    height: 80px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid var(--mørkgrønn);
+}
+
+.og{
+
 }
 
 @media (width < 700px){
@@ -174,8 +212,7 @@ main{
     #mainkb{
         font-size: auto;
     }
-
-    
+  
 }
 
 @media (width < 840px){
@@ -184,6 +221,34 @@ main{
         flex-direction: column;
         height: auto;
         height: auto;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    footer>div{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+}
+
+@media (width <600px){
+    .holder{
+        height: auto;
+    }
+    .holderkomp{
+        height: auto;
+    }
+    .komp{
+        height: auto;
+    }
+    .boks{
+        height:auto;
+    }
+    #mainkb > h1{
+        font-size: 60px;
     }
 }
 
