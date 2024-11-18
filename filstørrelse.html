@@ -6,6 +6,63 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        #filstørrelse-maintekst {
+            font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    height: 100vh;
+    background-color: #e1b7d2ff;
+        }
+
+
+.bilderdatamaskin {
+    width: 600px;
+    margin-right: 100px;
+}
+
+
+.introfils-div {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(189, 221, 207);
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+#tekst1filstørrelse {
+font-size: 25px;
+margin-left: 100px;
+margin-right: 120px;
+}
+
+.gridfiler {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 400px ;
+   
+}
+
+.gridfiler>div {
+    border: 1px solid black;
+}
+
+.gridfiler-tekst {
+
+    font-size: 25px;
+    margin: 25px;
+
+}
+
+
+    </style>
 </head>
 <body>
 
@@ -23,6 +80,121 @@
             <a href="filstørrelse.html"> Filstørrelse </a>
         </nav>
     </header>
+
+
+    <main>
+        <div id="filstørrelse-maintekst">
+            <h1>Filstørrelse</h1>
+        </div>
+    </main>
+
+   
+    <section>
+
+<div class="introfils-div">
+        <div id="tekst1filstørrelse">
+
+            <h1>
+                Bilder og filstørrelser
+            </h1>
+    
+            <p> Alle bildene du legger ut på nettsidene dine, 
+                må lastes ned av brukerne til brukernes datamaskin. 
+                Filstørrelsen til bildet er av betydning når det gjelder lagring 
+                av bildefiler og overføring av bilder vi internett.
+            </p>
+
+            <br>
+
+            <p> Enheten for filstørrelse er byte (B). 
+                Som regel oppgir vi filstørrelsen i kilobyte (kB) eller 
+            megabyte (MB). </p>
+        </div>
+    
+    
+        
+            <div>
+                <img class="bilderdatamaskin" src="bilder/datamaskin.jpg" alt="datamaskin">
+            </div>
+    
+</section>
+        
+
+<section>
+
+    <div class="gridfiler">
+
+        <div class="gridfiler-tekst">
+            <h1>Filformat JPG</h1>
+            <p> <b>Egner seg til:</b> Fotografier</p>
+            <p> <b>Komprimering:</b> Destruktiv</p>
+
+            <br>
+
+            <p> JPG er en av de mest vanlige filformatene. 
+                Det er en metode for å komprimere digitale bilder.
+                 Magien med JPG ligger i dens evne til å redusere filstørrelser 
+                 betraktelig uten et merkbart tap i bildekvalitet.
+            </p>
+        </div>
+        <div>
+            <img src="bilder/jpgbilde.png" alt="jpg">
+        </div>
+
+
+
+        <div >
+            <img src="bilder/pngbilde.png" alt="png">
+        </div>
+        <div class="gridfiler-tekst">
+            <h1>Filformat PNG</h1>
+            <p> <b>Egner seg til:</b> Fotografier, ikoner, webgrafikk,
+            logoer og grafikk til animasjoner og spill.</p>
+            <p> <b>Komprimering:</b> Tapsfri</p>
+
+            <br>
+
+            <p> PNG (Portable Network Graphics) er et tapsfritt bildeformat 
+                som bruker komprimering uten å fjerne bildedata.
+
+                PNG-er gir mulighet for gjennomsiktighet i bilder,
+                 i motsetning til JPEG-er. Dette gjør PNG-er ideelle for grafikk,
+                  logoer, ikoner og andre bilder med gjennomsiktighet.
+                
+                PNG-er kan sammenlignes med JPEG-er i størrelse 
+                og kvalitet når det samme komprimeringsnivået brukes.
+            </p>
+        </div>
+
+        <div class="gridfiler-tekst">
+            <h1>Filformat GIF</h1>
+            <p> <b>Egner seg til:</b> Lite egnet. Bruk heller PNG.</p>
+            <p> <b>Komprimering:</b> Destruktiv eller Tapsfri</p>
+
+            <br>
+
+            <p> PNG (Portable Network Graphics) er et tapsfritt bildeformat 
+                som bruker komprimering uten å fjerne bildedata.
+
+                PNG-er gir mulighet for gjennomsiktighet i bilder,
+                 i motsetning til JPEG-er. Dette gjør PNG-er ideelle for grafikk,
+                  logoer, ikoner og andre bilder med gjennomsiktighet.
+                
+                PNG-er kan sammenlignes med JPEG-er i størrelse 
+                og kvalitet når det samme komprimeringsnivået brukes.
+            </p>
+
+        </div>
+
+        <div>
+            <img src="bilder/gifbilde.png" alt="fil">
+        </div>
+
+    </div>
+
+
+
+</section>
     
 </body>
 </html>
