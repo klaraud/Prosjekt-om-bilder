@@ -130,3 +130,13 @@ footer>div{
     margin-left: -50px;
 }
 
+@media (width < 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    div > div{
+        height: 100vh;
+    }
+}
+
