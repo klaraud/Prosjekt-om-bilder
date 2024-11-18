@@ -1,12 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Document</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
+<style>
+    #filstørrelse-maintekst {
+        font-size: 80px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background-color: #e1b7d2ff;
+        background-image: url(bilder/fall.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .bilderdatamaskin {
+        width: 600px;
+        margin-right: 100px;
+    }
+
+
+    .introfils-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(189, 221, 207);
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    #tekst1filstørrelse {
+        font-size: 25px;
+        margin-left: 100px;
+        margin-right: 120px;
+    }
+
+    .gridfiler {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 400px;
+
+    }
+
+    .gridfiler>div {
+        border: 1px solid black;
+    }
+
+    .gridfiler-tekst {
+
+        font-size: 25px;
+        margin: 25px;
+    }
+
+    .gridfiler-bilder {
+        display: flex;
+
+    }
+
+    .gridfiler-bilder1 {
+        width: 200px;
+        height: 200px;
+    }
+</style>
 </head>
+
 <body>
 
 
@@ -14,38 +77,133 @@
         <nav class="navigeringdiv">
             <a href="index.html" class="hjem"> Hjem </a>
             <a href="bildepunkter.html"> Bildepunkter </a>
-            <a href="Lagring-og-minne.html"> Lagring og minne  </a>
+            <a href="Lagring-og-minne.html"> Lagring og minne </a>
             <a href="farger-rgb.html"> Farger - RGB </a>
             <a href="overføring-fargebilder.html"> Lagring og oferføring av fargebilder</a>
-            <a href="kompresjon.html"> Kompresjon av bilder  </a>
+            <a href="kompresjon.html"> Kompresjon av bilder </a>
             <a href="tapsfri-kompresjon.html"> Tapsfri kompresjon </a>
             <a href="destruktiv-kompresjon.html"> Destruktiv kompresjon</a>
             <a href="filstørrelse.html"> Filstørrelse </a>
         </nav>
     </header>
 
-    <footer>
-        <div>  
-            <h1>Skrevet av:</h1>
-            <ul>
-                <li>Iben</li>  
-                <li>Inger Helene</li> 
-                <li>Klara</li> 
-                <li>Silje</li> 
-                <li>Thea</li> 
-            </ul>
+
+
+
+    <div id="filstørrelse-maintekst">
+        <h1>Filstørrelse</h1>
+    </div>
+
+
+
+    <section>
+
+        <div class="introfils-div">
+            <div id="tekst1filstørrelse">
+
+                <h1>
+                    Bilder og filstørrelser
+                </h1>
+
+                <p> Alle bildene du legger ut på nettsidene dine,
+                    må lastes ned av brukerne til brukernes datamaskin.
+                    Filstørrelsen til bildet er av betydning når det gjelder lagring
+                    av bildefiler og overføring av bilder vi internett.
+                </p>
+
+                <br>
+
+                <p> Enheten for filstørrelse er byte (B).
+                    Som regel oppgir vi filstørrelsen i kilobyte (kB) eller
+                    megabyte (MB). </p>
+            </div>
+
+
+
+            <div>
+                <img class="bilderdatamaskin" src="bilder/datamaskin.jpg" alt="datamaskin">
+            </div>
+
+    </section>
+
+
+    <section>
+
+        <div class="gridfiler">
+
+            <div class="gridfiler-tekst">
+                <h1>Filformat JPG</h1>
+                <p> <b>Egner seg til:</b> Fotografier</p>
+                <p> <b>Komprimering:</b> Destruktiv</p>
+
+                <br>
+
+                <p> JPG er en av de mest vanlige filformatene.
+                    Det er en metode for å komprimere digitale bilder.
+                    Magien med JPG ligger i dens evne til å redusere filstørrelser
+                    betraktelig uten et merkbart tap i bildekvalitet.
+                </p>
+            </div>
+            <div class="gridfiler-bilder">
+                <img class="gridfiler-bilder1" src="bilder/jpgbilde.png" alt="jpg">
+
+            </div>
+
+
+
+            <div>
+                <img class="gridfiler-bilder1" src="bilder/pngbilde.png" alt="png">
+            </div>
+            <div class="gridfiler-tekst">
+                <h1>Filformat PNG</h1>
+                <p> <b>Egner seg til:</b> Fotografier, ikoner, webgrafikk,
+                    logoer og grafikk til animasjoner og spill.</p>
+                <p> <b>Komprimering:</b> Tapsfri</p>
+
+                <br>
+
+                <p> PNG (Portable Network Graphics) er et tapsfritt bildeformat
+                    som bruker komprimering uten å fjerne bildedata.
+
+                    PNG-er gir mulighet for gjennomsiktighet i bilder,
+                    i motsetning til JPEG-er. Dette gjør PNG-er ideelle for grafikk,
+                    logoer, ikoner og andre bilder med gjennomsiktighet.
+
+                    PNG-er kan sammenlignes med JPEG-er i størrelse
+                    og kvalitet når det samme komprimeringsnivået brukes.
+                </p>
+            </div>
+
+            <div class="gridfiler-tekst">
+                <h1>Filformat GIF</h1>
+                <p> <b>Egner seg til:</b> Lite egnet. Bruk heller PNG.</p>
+                <p> <b>Komprimering:</b> Destruktiv eller Tapsfri</p>
+
+                <br>
+
+                <p> PNG (Portable Network Graphics) er et tapsfritt bildeformat
+                    som bruker komprimering uten å fjerne bildedata.
+
+                    PNG-er gir mulighet for gjennomsiktighet i bilder,
+                    i motsetning til JPEG-er. Dette gjør PNG-er ideelle for grafikk,
+                    logoer, ikoner og andre bilder med gjennomsiktighet.
+
+                    PNG-er kan sammenlignes med JPEG-er i størrelse
+                    og kvalitet når det samme komprimeringsnivået brukes.
+                </p>
+
+            </div>
+
+            <div>
+                <img class="gridfiler-bilder1" src="bilder/gifbilde.png" alt="fil">
+            </div>
+
         </div>
-        <div>  
-            <h1>Kontakt oss:</h1>
-            (Mail)
-        </div>
-    
-        <div>  
-            <h1>Her finner du oss!</h1>
-            <img src="https://www.google.com/maps/vt/data=iAo2aNc0XmRkJV8k8Jogau7czrJMku1vSIiy6kp8Xz5N9lXzrEVwleys-sXCfpSVFgJCy2nUM0pTgZvxcxvV2v_q9POExmH6PYjzX43nKSAsweaAlkr293vJOHQiRWfVA6ysCPpop5Nxp6wQO5ZPi02gF6iyiEwXBBVIubRh2hQtD8efNX-EWrMCA8XBXjSSQV84E_c2iob5NtUDIOWh_BjCC559SIZTgxHaF4QauMHGPs0AZxdX-fJLMIyfE8JXqsJqIwja7RUdo8FgnA" style="width: 400px;
-            height: auto;">    
-        </div>
-    </footer> 
-    
+
+
+
+    </section>
+
 </body>
+
 </html>

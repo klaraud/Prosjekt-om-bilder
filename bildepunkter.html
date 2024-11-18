@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
-        
+
         .bildepunkter-forside {
             background-image: url(bilder/fjell.jpg);
             height: 100vh;
@@ -24,15 +24,25 @@
             color: white;
         }
 
+        .bildepunkter-body {
+            background-color: #f7f7f7;
+        }
+
         .bildepunkter-container > div {
-            background-color: skyblue;
+            background-color: #bde6baff;
         }
 
         .bildepunkter-container {
             display: grid;
             grid-template-columns: 600px auto;
             grid-template-rows: 400px 400px;
-            gap: 1px;
+            gap: 20px;
+            margin: 20px;
+        }
+
+        #bildepunkter1, #bildepunkter2, #bildepunkter3, #bildepunkter4 {
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
         }
 
         #bildepunkter1 {
@@ -43,7 +53,6 @@
         }
 
         #bildepunkter2 {
-            background-color: white;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -52,10 +61,27 @@
             color: black;
         }
 
+        #bildepunkter3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            font-size: 20px;
+            color: black;
+        }
+
+        #bildepunkter4 {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-color: white;
+        }
+       
+
     </style>
 
 </head>
-<body>
+<body class="bildepunkter-body">
 
     <header>
         <nav class="navigeringdiv">
@@ -81,6 +107,7 @@
         <div id="bildepunkter1">
             <img style="width: 400px; height: 300px;" src=bilder/piksler.png>
         </div>
+
         <div id="bildepunkter2">
             <p>Et digitalt bilde er et godt utgangspunkt når vi skal se mer på hvordan
                 en datamaskin fungerer. Selve bildet er tydelig og forståelig, selv
@@ -94,14 +121,47 @@
                 datamaskinen. 
             </p>
         </div>
-        <div>
-            
+
+        <div id="bildepunkter3">
+            <p>Ved siden av ser du er svært enkel figur av en pil og en pekende hånd.
+                Det er to nivåer: svart og hvitt. Man kan se at bildet er delt inn i 
+                bildepunkter.Vi bruker lav oppløsning i dette eksempelet. Datamaskinen
+                setter opp tall for hvert bildepunkt, dette kan man ikke se på dette bildet.
+                Tallet 1 står for svart, og bak hvert svarte bildepunkt har 
+                datamaskinen 1 og tallet 2 står for hvit og står for alle hvite 
+                bildepunkter. Datamaskinen trenger bare tallene og litt informasjon om
+                hvordan de er satt opp.
+            </p>
         </div>
-        <div>
-            <img src="bilder/peke.png">
+
+        <div id="bildepunkter4">
+            <img style="width: 500px; height: 300px;" src="bilder/peke.png">
         </div>
         <div></div>
     </div>
     
+    <footer>
+        <div>  
+            <h1>Skrevet av:</h1>
+            <ul>
+                <li>Iben</li>  
+                <li>Inger Helene</li> 
+                <li>Klara</li> 
+                <li>Silje</li> 
+                <li>Thea</li> 
+            </ul>
+        </div>
+        <div>  
+            <h1>Kontakt oss:</h1>
+            (Mail)
+        </div>
+
+        <div>  
+            <h1>Her finner du oss!</h1>
+            <img src="https://www.google.com/maps/vt/data=iAo2aNc0XmRkJV8k8Jogau7czrJMku1vSIiy6kp8Xz5N9lXzrEVwleys-sXCfpSVFgJCy2nUM0pTgZvxcxvV2v_q9POExmH6PYjzX43nKSAsweaAlkr293vJOHQiRWfVA6ysCPpop5Nxp6wQO5ZPi02gF6iyiEwXBBVIubRh2hQtD8efNX-EWrMCA8XBXjSSQV84E_c2iob5NtUDIOWh_BjCC559SIZTgxHaF4QauMHGPs0AZxdX-fJLMIyfE8JXqsJqIwja7RUdo8FgnA" style="width: 400px;
+            height: auto;">    
+        </div>
+    </footer> 
+
 </body>
 </html>

@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    color: white;
+   
     font-family: "Roboto Mono";
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 img {
     width: 100%;
@@ -96,7 +96,7 @@ main{
 
 .lego{
     display: flex;
-    background-color: #85c7f2ff;
+    background-color: #e1b7d2ff;
     text-align: center;
     align-items: center;
     height: 80vh;
@@ -112,7 +112,7 @@ main{
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #mainlogm{
     background-image: url("bilder/sunset.jpg");
@@ -135,7 +135,7 @@ main{
 
 .komp{
     display: flex;
-    height: 30vh;
+    height: auto;
     width: 70%;
     background-color: #235789ff;
     flex-direction: column;
@@ -150,7 +150,7 @@ main{
 }
 
 .holder{
-    height: 70vh;
+    height: auto;
     width: 100%;
     background-color: #235789ff;
     display: flex;
@@ -209,9 +209,7 @@ main{
     #mainkb{
         font-size: auto;
     }
-
-    
-    
+  
 }
 
 @media (width < 840px){
@@ -220,6 +218,24 @@ main{
         flex-direction: column;
         height: auto;
         height: auto;
+    }
+}
+
+@media (width <600px){
+    .holder{
+        height: auto;
+    }
+    .holderkomp{
+        height: auto;
+    }
+    .komp{
+        height: auto;
+    }
+    .boks{
+        height:auto;
+    }
+    #mainkb > h1{
+        font-size: 60px;
     }
 }
 
@@ -256,8 +272,5 @@ aside{
 }
 
 
-p{
-    color: white;
-    margin: 10px;
-}
+
 
