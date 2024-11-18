@@ -2,18 +2,43 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    color: white;
+    font-family: "Roboto Mono";
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 img {
     width: 100%;
     height: 100%;
 }
 
-/* NAV */
+
+footer{
+    background-color: #85c7f2ff;
+    color: white;
+    height: 50vh;
+    border-top: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+
+}
+
+footer h1{
+    margin-bottom: 30px;
+}
+
+footer li{
+    margin-bottom: 20px;
+
+}
+
 nav {
    
 }
-        .navigeringdiv{
+.navigeringdiv{
 	background-color: #85c7f2ff;
 	display: grid;
 	grid-template-columns:  auto repeat(4,1fr);
@@ -54,5 +79,150 @@ color: black;
     --rosa: #e1b7d2ff;
     --mørkgrønn: #1c7c54ff;
     --lysblå: #85c7f2ff;
+}
+main{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    
+    color: white;
+    
+}
+
+.lego{
+    display: flex;
+    background-color: #85c7f2ff;
+    text-align: center;
+    align-items: center;
+    height: 80vh;
+    padding: 10px;
+
+}
+.lego > img{
+    border: solid 5px #235789ff;
+    border-radius: 20px;
+}
+.lego > p{
+    border: 5px solid #235789ff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+#mainlogm{
+    background-image: url("bilder/sunset.jpg");
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: #235789ff 5px 5px 5px;
+}
+#mainkb{
+    background-image: url("bilder/snofjell.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.holderkomp{
+    display: flex;
+    background-color: #235789ff;
+    height: 40vh;
+    justify-content: center;
+}
+
+.komp{
+    display: flex;
+    height: 30vh;
+    width: 70%;
+    background-color: #235789ff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    border: solid #85c7f2ff 5px;
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
+
+.holder{
+    height: 70vh;
+    width: 100%;
+    background-color: #235789ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.boks{
+    padding: 20px;
+    margin: 40px;
+    border: solid #85c7f2ff 5px;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+}
+
+@media (width < 700px){
+    .holder{
+        display: flex;
+        flex-direction: column ;
+        height: auto;
+    }
+    #mainkb{
+        font-size: auto;
+    }
+    
+    
+}
+
+@media (width < 840px){
+    .lego{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        height: auto;
+    }
+}
+
+
+.b_overføring{
+    height: 100vh;
+    background-image: url(bilder/fugl.jpg);
+    background-size: cover; 
+	background-position: center;
+    overflow: hidden;
+    opacity: 90%;
+}
+
+.overføring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(27, 27, 59);
+    font-size: xxx-large;
+
+}
+=======
+aside{
+   height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    background-color: #235789ff;
+    font-size: 25px;
+
+}
+
+
+p{
+    color: white;
+    margin: 10px;
 }
 

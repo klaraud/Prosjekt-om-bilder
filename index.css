@@ -1,6 +1,9 @@
 .forside{
     background-image: url("bilder/forsidebilde.jpg");
     height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
 }
 .container{
     display: grid;
@@ -14,7 +17,7 @@
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: xx-large;
+    font-size: 100px;
 }
 
 #trettito{
@@ -38,7 +41,7 @@
 #forklarertrettitre{
     grid-column: 1/5;
     grid-row: 3/5;
-    background-color: skyblue;
+    background-color: #235789ff;
     color: white;
 }
 
@@ -55,7 +58,7 @@
 #forklarertrettifire{
     grid-row: 3/5;
     grid-column: 5/9;
-    background-color: skyblue;
+    background-color: #bde6baff;
     color: white;
 
 }
@@ -70,8 +73,9 @@
 #forklarertrettifem{
     grid-column: 1/5;
     grid-row: 1/3;
-    background-color: skyblue;
+    background-color: #85c7f2ff;
     color: white;
+    text-align: center;
 }
 
 #trettiseks{
@@ -82,31 +86,60 @@
 #forklarertrettiseks{
     grid-column: 5/9;
     grid-row: 3/5;
-    background-color: skyblue;
+    background-color: #1c7c54ff;
     color: white;
 }
-#trettisyv{
-    grid-column: 5/9;
-    grid-row: 1/3;
-}
 
-#forklarertrettisyv{
-    grid-row: 3/5;
-    grid-column: 5/9;
-    background-color: skyblue;
+
+a {
     color: white;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: var(--lysgrønn);
+    height: 50vh;
+    border-top: 2px solid rgb(71, 110, 83);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 70px;
 
 }
 
-#trettiåtte{
-    grid-column: 5/9;
-    grid-row: 1/3;
+footer h1{
+    margin-bottom: 30px;
 }
 
-#forklarertrettiåtte{
-    grid-row: 3/5;
-    grid-column: 5/9;
-    background-color: skyblue;
-    color: white;
+footer li{
+    margin-bottom: 20px;
 
 }
+<<<<<<< Updated upstream
+
+footer>div{
+    margin-left: -50px;
+}
+
+@media (width < 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    div > div{
+        height: 100vh;
+    }
+}
+
+=======
+>>>>>>> Stashed changes
