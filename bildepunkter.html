@@ -68,6 +68,12 @@
         #bildepunkter2 b {
             color: black;
         }
+        
+        #bildepunkter1 img:hover, #bildepunkter4 img:hover, #bildepunkter5 img:hover {
+            transform: scale(1.1); /* Zoom inn */
+            transition: transform 0.3s, filter 0.3s;
+        }
+
 
 
 
@@ -93,8 +99,10 @@
             <h1>Bildepunkter</h1>
         </div>
     </div>
+    
 
     <div class="bildepunkter-container">
+
         <div id="bildepunkter1">
             <img style="width: 400px; height: 300px;" src=bilder/piksler.png>
         </div>
