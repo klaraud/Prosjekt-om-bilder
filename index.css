@@ -171,8 +171,6 @@ footer li{
     .container> #trettito, #trettitre, #trettifire, #trettifem, #trettiseks, #bildefil, #bildefil2, #illustrasjonsbilde {
         font-size: 0px;
     }
-    
-
 
     footer{
         flex-direction: column;
