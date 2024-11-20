@@ -37,7 +37,7 @@ footer li{
 .navigeringdiv{
 	background-color: #85c7f2ff;
 	display: grid;
-	grid-template-columns:  auto repeat(4,1fr);
+	grid-template-columns:  auto repeat(3,1fr);
 	align-items: center;
 	justify-items: center;
     grid-template-rows: 50px 50px;
