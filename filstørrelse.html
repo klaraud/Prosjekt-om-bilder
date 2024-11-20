@@ -13,7 +13,7 @@
         flex-direction: column;
         height: 100vh;
         background-color: #e1b7d2ff;
-        background-image: url(bilder/fall.jpg);
+        background-image: url(bilder/horisont.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -44,29 +44,24 @@
     .gridfiler {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 400px;
+        grid-auto-rows: auto;
+        gap: 50px 0;
 
     }
 
     .gridfiler>div {
-        border: 1px solid black;
+       
     }
 
     .gridfiler-tekst {
 
         font-size: 25px;
-        margin: 25px;
+        margin: 40px;
     }
 
-    .gridfiler-bilder {
-        display: flex;
+   
 
-    }
-
-    .gridfiler-bilder1 {
-        width: 200px;
-        height: 200px;
-    }
+  
 </style>
 </head>
 
@@ -131,6 +126,11 @@
 
         <div class="gridfiler">
 
+            <div>
+                <img src="bilder/elefantjpgbilde.png" alt="jpg">
+
+            </div>
+
             <div class="gridfiler-tekst">
                 <h1>Filformat JPG</h1>
                 <p> <b>Egner seg til:</b> Fotografier</p>
@@ -144,15 +144,12 @@
                     betraktelig uten et merkbart tap i bildekvalitet.
                 </p>
             </div>
-            <div class="gridfiler-bilder">
-                <img class="gridfiler-bilder1" src="bilder/jpgbilde.png" alt="jpg">
-
-            </div>
+            
 
 
 
             <div>
-                <img class="gridfiler-bilder1" src="bilder/pngbilde.png" alt="png">
+                <img  src="bilder/pngblomst.png" alt="png">
             </div>
             <div class="gridfiler-tekst">
                 <h1>Filformat PNG</h1>
@@ -181,21 +178,24 @@
 
                 <br>
 
-                <p> PNG (Portable Network Graphics) er et tapsfritt bildeformat
-                    som bruker komprimering uten å fjerne bildedata.
+                <p> GIF (Graphics Interchange Format). 
 
-                    PNG-er gir mulighet for gjennomsiktighet i bilder,
-                    i motsetning til JPEG-er. Dette gjør PNG-er ideelle for grafikk,
-                    logoer, ikoner og andre bilder med gjennomsiktighet.
+                    GIF er et bildeformat med stillbilder som er satt 
+                    sammen til ei bildefil og oppleves som en kort filmsnutt eller animasjon. 
+                    En GIF kan som regel lastes inn der du laster inn vanlige bilder.
 
-                    PNG-er kan sammenlignes med JPEG-er i størrelse
-                    og kvalitet når det samme komprimeringsnivået brukes.
+                    Du kjenner gjerne GIF-er fra sosiale medier – slike korte 
+                    snutter med reaksjoner der noen ler, snubler, danser, er sint eller jubler.
+                    I profesjonelle settinger brukes GIF-er på nettsider for å vise status
+                    i brukergrensesnittet, for eksempel et snurrende hjul som betyr
+                    at noe er i ferd med å skje.
+
                 </p>
 
             </div>
 
             <div>
-                <img class="gridfiler-bilder1" src="bilder/gifbilde.png" alt="fil">
+                <img   alt="fil">
             </div>
 
         </div>
