@@ -346,9 +346,7 @@ html {
         flex-direction: column ;
         height: auto;
     }
-    #mainkb{
-        font-size: auto;
-    }
+    
     #lossy{
         height: auto;
         width: auto;
@@ -397,12 +395,8 @@ html {
         height: auto;
         width: auto;
     }
-    #lossy > img{
-        width: ;
-    }
+    
 }
-
-
 
 
 aside{
