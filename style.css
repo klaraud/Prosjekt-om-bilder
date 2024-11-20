@@ -79,7 +79,7 @@ color: black;
     --lysblå: #85c7f2ff;
 }
 main{
-    height: 88vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -111,8 +111,20 @@ main{
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
+    font-size: 15px;
+}
+
+.lego>p:hover{
+    transition: 2s;
+    padding: 40px;
     font-size: 20px;
 }
+.lego,img:hover{
+    height: 87vh;
+    transition: 2s;
+}
+
+
 #mainlogm{
     background-image: url("bilder/sunset.jpg");
     background-size: cover;
@@ -157,6 +169,7 @@ main{
     align-items: center;
     justify-content: space-around;
 }
+
 .boks{
     padding: 20px;
     margin: 40px;
@@ -165,6 +178,46 @@ main{
     height: auto;
     text-align: center;
     color: white;
+}
+
+.boks:hover{
+    padding: 50px;
+    transition: 2s;
+    background-color: #e1b7d2ff;
+   
+
+}
+
+.komp:hover{
+    background-color: #e1b7d2ff;
+   transition: 2s;
+}
+
+#lossy {
+    padding: 20px;
+    margin: 40px;
+    border: solid #85c7f2ff 5px;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: #235789ff;
+    height: auto;
+    width: auto;
+   
+}
+
+#lossy > img{
+    width: auto;
+    height: 60%;
+}
+
+#lossy:hover{
+    padding: 50px;
+    transition: 2s;
+    background-color: #e1b7d2ff;
+   
+
 }
 
 html {
@@ -290,14 +343,19 @@ html {
     #mainkb{
         font-size: auto;
     }
-  
+    #lossy{
+        height: auto;
+        width: auto;
+    }
+    #lossy > img{
+        width: auto;
+    }
 }
 
 @media (width < 840px){
     .lego{
         display: flex;
         flex-direction: column;
-        height: auto;
         height: auto;
     }
     footer{
@@ -310,6 +368,7 @@ html {
         flex-direction: column;
         margin-left: 40px;
     }
+   
 }
 
 @media (width <600px){
@@ -327,6 +386,13 @@ html {
     }
     #mainkb > h1{
         font-size: 60px;
+    }
+    #lossy{
+        height: auto;
+        width: auto;
+    }
+    #lossy > img{
+        width: ;
     }
 }
 
