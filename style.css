@@ -100,7 +100,6 @@ main{
     height: 80vh;
     padding: 10px;
     color: white;
-
 }
 .lego > img{
     border: solid 5px #235789ff;
@@ -131,6 +130,8 @@ main{
     background-position: bottom;
     text-shadow: #235789ff 5px 5px 5px;
 }
+
+
 #mainkb{
     background-image: url("bilder/snofjell.jpg");
     background-size: cover;
