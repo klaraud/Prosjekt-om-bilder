@@ -15,14 +15,13 @@ img {
 
 
 footer{
-    background-color: #85c7f2ff;
-    color: white;
+    background-color: var(--lysblå);
     height: 50vh;
-    border-top: 2px solid grey;
+    border-top: 2px solid rgb(92, 136, 180);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 80px;
+    padding-top: 70px;
 
 }
 
@@ -35,9 +34,6 @@ footer li{
 
 }
 
-nav {
-   
-}
 .navigeringdiv{
 	background-color: #85c7f2ff;
 	display: grid;
@@ -45,6 +41,8 @@ nav {
 	align-items: center;
 	justify-items: center;
     grid-template-rows: 50px 50px;
+    position: fixed;
+    z-index: 3;
     
 }
 
@@ -81,7 +79,7 @@ color: black;
     --lysblå: #85c7f2ff;
 }
 main{
-    height: 88vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -101,6 +99,7 @@ main{
     align-items: center;
     height: 80vh;
     padding: 10px;
+    color: white;
 
 }
 .lego > img{
@@ -112,8 +111,20 @@ main{
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
+    font-size: 15px;
+}
+
+.lego>p:hover{
+    transition: 2s;
+    padding: 40px;
     font-size: 20px;
 }
+.lego,img:hover{
+    height: 87vh;
+    transition: 2s;
+}
+
+
 #mainlogm{
     background-image: url("bilder/sunset.jpg");
     background-size: cover;
@@ -131,6 +142,7 @@ main{
     background-color: #235789ff;
     height: 40vh;
     justify-content: center;
+    color: white;
 }
 
 .komp{
@@ -157,6 +169,7 @@ main{
     align-items: center;
     justify-content: space-around;
 }
+
 .boks{
     padding: 20px;
     margin: 40px;
@@ -164,7 +177,163 @@ main{
     border-radius: 10px;
     height: auto;
     text-align: center;
+    color: white;
 }
+
+.boks:hover{
+    padding: 50px;
+    transition: 2s;
+    background-color: #e1b7d2ff;
+   
+
+}
+
+.komp:hover{
+    background-color: #e1b7d2ff;
+   transition: 2s;
+}
+
+#lossy {
+    padding: 20px;
+    margin: 40px;
+    border: solid #85c7f2ff 5px;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: #235789ff;
+    height: auto;
+    width: auto;
+   
+}
+
+#lossy > img{
+    width: auto;
+    height: 60%;
+}
+
+#lossy:hover{
+    padding: 50px;
+    transition: 2s;
+    background-color: #e1b7d2ff;
+   
+
+}
+
+html {
+    scroll-behavior: smooth;
+  } 
+
+.b_overføring{
+    height: 120vh;
+    background-image: url(bilder/fugl.jpg);
+    background-size: cover; 
+	background-position: center;
+    overflow: hidden;
+    opacity: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overføring{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: xxx-large;
+    margin-bottom: 40px;
+}
+
+.onav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #121110;
+    opacity: 90%;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    }
+
+.om{
+    height: 250vh;
+    padding: 20px;
+    background-color: rgb(104, 153, 116);
+    background-image: url(bilder/.jpg);
+    background-size: cover;
+    opacity: 80%;
+}
+
+
+.tre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 0px 50px;
+}
+
+
+.tre>div{
+    height: 140px;
+    width: 450px;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+    background-color: rgb(62, 93, 70);
+    opacity: 80%;
+    border: 3px solid var(--lysgrønn);
+    color: wheat;
+    text-align: center;
+
+}
+
+.tre>div:hover{
+    transform: scale(1.07);
+}
+
+.tre1{
+    background-image: url(bilder/.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.og{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 40px;
+}
+
+.og>div{
+    background-color: var(--lysgrønn);
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid rgb(91, 125, 100);
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+    scroll-margin-top: 150px;
+}
+
+
+.og>div:hover{
+    transform: scale(1.05);
+}
+
+#d1{
+    grid-row: 1/3;
+}
+
+.d3{
+    grid-row: 3/5;
+}
+
+.d4{
+    grid-row: 2/4;
+}
+
 
 @media (width < 700px){
     .holder{
@@ -175,8 +344,13 @@ main{
     #mainkb{
         font-size: auto;
     }
-
-    
+    #lossy{
+        height: auto;
+        width: auto;
+    }
+    #lossy > img{
+        width: auto;
+    }
 }
 
 @media (width < 840px){
@@ -184,8 +358,18 @@ main{
         display: flex;
         flex-direction: column;
         height: auto;
+    }
+    footer{
+        flex-direction: column;
+        justify-content: flex-start;
         height: auto;
     }
+
+    footer>div{
+        flex-direction: column;
+        margin-left: 40px;
+    }
+   
 }
 
 @media (width <600px){
@@ -204,27 +388,17 @@ main{
     #mainkb > h1{
         font-size: 60px;
     }
+    #lossy{
+        height: auto;
+        width: auto;
+    }
+    #lossy > img{
+        width: ;
+    }
 }
 
 
-.b_overføring{
-    height: 100vh;
-    background-image: url(bilder/fugl.jpg);
-    background-size: cover; 
-	background-position: center;
-    overflow: hidden;
-    opacity: 90%;
-}
 
-.overføring{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: rgb(27, 27, 59);
-    font-size: xxx-large;
-
-}
 
 aside{
    height: 100vh;

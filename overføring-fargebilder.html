@@ -6,6 +6,24 @@
     <title>Overføring av fargebilder</title>
     <link rel="stylesheet" href="style.css">
 
+    <style>
+         body {
+                background: rgb(66, 91, 85);
+                animation: fadeIn 1.1s ease-in forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 50%;
+      }
+      to {
+        background: white;
+        opacity: 100%;
+      }
+    }
+    
+    </style>
+
 </head>
 <body>
 
@@ -23,10 +41,44 @@
         </nav>
     </header>
 
-    <div class="b_overføring">
-        <div class="overføring">
-            <h1>Overføring av fargebilder</h1>
+        <div class="b_overføring">
+            <div class="overføring">
+                <h1>Overføring av fargebilder</h1>
+            </div>
+            <nav class="onav">
+                <a href="#d1">Lagring</a>
+                <a href="">Langringsbehov</a>
+                <a href="">Overføring</a>
+                <a href="#d5">Datahastighet</a>
+            </nav>
         </div>
+
+        <div class="om">
+            <div class="tre">
+                <div class="tre1"> heihei</div>
+                <div class="tre2"></div>
+                <div></div>
+            </div>
+
+            <div class="og">
+                <div id="d1">
+                    <h2>Lagring</h2>
+                    <p>Et svart-hvitt-bilde krever kun én bit per bildepunkt for å vise enten av (0) eller på (1). For fargebilder trengs 24 bit per bildepunkt: 8 bit for rødt, 8 for grønt, og 8 for blått. Dette gjør at fargebilder tar opp mye mer plass enn svart-hvitt-bilder.</p>
+                </div>
+                <div class="d2">
+                    <h2>Lagringsbehov</h2>
+                    <p>Overgangen fra svart-hvitt til fargebilder fører til en stor økning i lagringsbehov. Mens et svart-hvitt-bilde med 64 bildepunkt kun krever 64 bit, trenger et fargebilde med samme størrelse 1536 bit. Dette krever en moderne og rask datamaskin med masse minneplass.</p>
+                </div>
+                <div class="d3">
+                    <h2>Overføring</h2>
+                    <p>Når bilder skal overføres, må alle bitene sendes til mottakeren. Et svart-hvitt-bilde er raskt å overføre fordi det består av få bit, mens et fargebilde, med langt flere bit, tar mye lengre tid. Overføringen kan gjøres raskere ved å forbedre kvaliteten på linjen eller ved å bruke raskere maskinvare.</p>
+                </div>
+                <div class="d4">
+                    <h2>Datahastighet</h2>
+                    <p>Datahastighet, målt i bit per sekund, bestemmer hvor raskt data kan overføres. For å sende store bilder, som fargebilder, må både datamaskinen og linjen håndtere høyere hastigheter. Med en god linje og rask teknologi kan man overføre flere bit per sekund og unngå feil under overføringen.</p>
+                </div>
+                <div id="d5"></div>
+            </div>
     </div>
 
     <footer>
