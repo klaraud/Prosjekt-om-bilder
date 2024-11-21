@@ -38,7 +38,15 @@
     background-image: url(bilder/boat.jpg);
     background-size: cover;
     background-position: center;
+    text-shadow: 5px 5px 5px  rgb(2, 32, 60);
+    color: white;
 
+}
+
+.rgb-maintekst:hover h1 {
+    letter-spacing: 25px;
+    transform: scale(1.3);
+    transition: 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 
@@ -99,6 +107,27 @@ margin-right: 120px;
     margin: 50px 50px;
     padding-left: 200px;
     padding-right: 200px;
+}
+
+
+.h1rgb>span {
+    color: black;
+    font-size: 39px;
+}   
+
+#r:hover {
+    color: red;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#g:hover {
+    color: green;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#b:hover {
+    color: blue;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .tekst2rgb>p {
@@ -168,10 +197,10 @@ margin-right: 120px;
 
 
 
- <div class="rgb-maintekst">
+ <div class="rgb-maintekst"> 
     <h1>Farger</h1>
+ </div>
 
-</div>
 
 
 <article>
@@ -208,7 +237,7 @@ margin-right: 120px;
 <article>
  
     <div class="tekst2rgb">
-        <h1>Hvordan fungerer RGB?</h1>
+        <h1 class="h1rgb">Hvordan fungerer <span id="r"> R </span> <span id="g"> G </span> <span id="b"> B </span></h1>
 
         <p> RGB-fargemodellen bruker additiv fargeblanding.
              Den kombinerer lys fra primærfargene rød, grønn og blå for å lage en rekke fargenyanser.
