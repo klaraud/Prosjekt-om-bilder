@@ -285,21 +285,51 @@ html {
     height: 140px;
     width: 450px;
     border-radius: 10px;
-    transition: transform 0.4s ease;
+    transition: transform 0.6s ease;
     background-color: rgb(62, 93, 70);
     opacity: 80%;
     border: 3px solid var(--lysgrønn);
     color: wheat;
     text-align: center;
-
+    position: relative; 
+    overflow: hidden;
 }
 
 .tre>div:hover{
     transform: scale(1.07);
+    background-image: none;
+}
+
+.tre>div .otext{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    position: absolute; 
+    top: 35%; 
+    left: 25%;
+    transform: translate(-15%, -30%); 
+    font-size: 18px;
+}
+
+.tre > div:hover .otext {
+    opacity: 1;
+    visibility: visible;
 }
 
 .tre1{
-    background-image: url(bilder/.jpg);
+    background-image: url(bilder/bit1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tre2{
+    background-image: url(bilder/bit2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tre3{
+    background-image: url(bilder/bit3.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -316,15 +346,16 @@ html {
     background-color: var(--lysgrønn);
     font-size: 18px;
     padding: 10px;
-    border: 2px solid rgb(91, 125, 100);
+    border: 2px solid rgb(121, 163, 132);
     border-radius: 10px;
-    transition: transform 0.4s ease;
+    transition: transform 0.6s ease;
     scroll-margin-top: 150px;
 }
 
 
 .og>div:hover{
     transform: scale(1.05);
+    background-color: rgb(179, 218, 177);
 }
 
 #d1{
