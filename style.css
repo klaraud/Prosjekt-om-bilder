@@ -273,7 +273,7 @@ html {
     }
 
 .om{
-    height: 250vh;
+    height: auto;
     padding: 20px;
     background-color: rgb(104, 153, 116);
     background-image: url(bilder/.jpg);
@@ -397,7 +397,7 @@ html {
 }
 
 .to{
-    opacity: 0; /* Gjør teksten usynlig */
+    opacity: 0;
     transition: opacity 0.3s ease;
 }
 
@@ -411,6 +411,13 @@ html {
 .to>ul{
     margin-left: 25px;
 
+}
+
+hr{
+    border: none; 
+    height: 2px; 
+    background-color: rgb(62, 93, 70);
+    margin: 150px 0;
 }
 
 
@@ -441,9 +448,9 @@ html {
         margin: 15px 0px;
     }
 
-    .om{
-        height: auto;
-    }
+   .om{
+    height: auto;
+   }
 
     .tre{
         flex-direction: column;
@@ -472,10 +479,7 @@ html {
     #d1, #d3, #d4 {
         grid-row: auto; 
     }
-
-    #d4{
-        height: 220px;
-    }
+    
 }
 
 @media (width < 840px){
