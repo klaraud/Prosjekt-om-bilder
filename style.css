@@ -52,7 +52,7 @@ footer div img{
     grid-template-rows: 50px 50px;
     position: fixed;
     z-index: 3;
-    
+    width: 100%;
 }
 
 nav a{
@@ -479,6 +479,12 @@ hr{
     #d1, #d3, #d4 {
         grid-row: auto; 
     }
+
+    .navigeringdiv a:not(.hjem) {
+        display: none;
+    }
+
+
     
 }
 
@@ -503,6 +509,8 @@ hr{
     footer>div>img{
         width: 70%;
     }
+
+   
 }
 
 @media (width <600px){
