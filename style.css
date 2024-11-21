@@ -420,9 +420,7 @@ html {
         flex-direction: column ;
         height: auto;
     }
-    #mainkb{
-        font-size: auto;
-    }
+    
     #lossy{
         height: auto;
         width: auto;
@@ -523,9 +521,7 @@ html {
         height: auto;
         width: auto;
     }
-    #lossy > img{
-        width: ;
-    }
+    
 }
 
 @media (width<500px){
@@ -536,8 +532,6 @@ html {
         transform: translate(-5%, -30%); 
     }
 }
-
-
 
 
 aside{
