@@ -1,0 +1,21 @@
+}
+
+@media (width <900px) {
+
+
+    .rgb-cmyk-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        gap: 40px;
+
+    }
+
+    .tekst2rgb {
+        text-align: center;
+        margin: 50px 50px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
