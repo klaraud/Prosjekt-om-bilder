@@ -13,15 +13,23 @@ img {
     height: 100%;
 }
 
-/* GJØR AT TEKSTEN BLIR STØRRE PÅ HVER SLIDE*/
+/* GJØR AT TEKSTEN BLIR STØRRE PÅ HVER SLIDE + FARGE*/
 
 
+.hoved-tekst {
+    text-shadow: 5px 5px 5px  rgb(2, 32, 60);
+    color: white;
+    font-size: 130px;
+    font-weight: bold;
+}
 
 .hoved-tekst:hover {
     letter-spacing: 15px;
     transform: scale(1.03);
     transition: 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+
 
 
 
