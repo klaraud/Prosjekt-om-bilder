@@ -323,7 +323,7 @@ html {
     transition: transform 0.6s ease;
     background-color: var(--mørkgrønn);
     opacity: 80%;
-    border: 3px solid var(--mørkblå);
+    border: 2px solid black;
     color: white;
     text-align: center;
     position: relative;
@@ -383,7 +383,7 @@ html {
     background-color: var(--lysgrønn);
     font-size: 18px;
     padding: 10px;
-    border: 2px solid var(--mørkblå);
+    border: 1px solid black;
     border-radius: 10px;
     transition: transform 0.6s ease;
     scroll-margin-top: 150px;
@@ -443,8 +443,8 @@ html {
 
 hr {
     border: none;
-    height: 2px;
-    background-color: var(--mørkgrønn);
+    height: 1px;
+    background-color: black;
     margin: 150px 0;
 }
 
