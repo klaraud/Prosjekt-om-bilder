@@ -13,6 +13,25 @@ img {
     height: 100%;
 }
 
+/* GJØR AT TEKSTEN BLIR STØRRE PÅ HVER SLIDE + FARGE*/
+
+
+.hoved-tekst {
+    text-shadow: 5px 5px 5px  rgb(2, 32, 60);
+    color: white;
+    font-size: 130px;
+    font-weight: bold;
+}
+
+.hoved-tekst:hover {
+    letter-spacing: 15px;
+    transform: scale(1.03);
+    transition: 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+
+
 
 footer{
     background-color: var(--lysblå);
@@ -222,7 +241,7 @@ p > a {
 }
 
 #lossy > img{
-    width: auto;
+   /*  width: auto; */
     height: 60%;
 }
 
@@ -275,7 +294,7 @@ html {
 .om{
     height: auto;
     padding: 20px;
-    background-color: rgb(104, 153, 116);
+    background-color: var(--mørkgrønn);
     background-image: url(bilder/.jpg);
     background-size: cover;
     opacity: 80%;
@@ -295,10 +314,10 @@ html {
     width: 450px;
     border-radius: 10px;
     transition: transform 0.6s ease;
-    background-color: rgb(62, 93, 70);
+    background-color: var(--mørkgrønn);
     opacity: 80%;
-    border: 3px solid var(--lysgrønn);
-    color: wheat;
+    border: 3px solid var(--mørkblå);
+    color: white;
     text-align: center;
     position: relative; 
     overflow: hidden;
@@ -356,7 +375,7 @@ html {
     background-color: var(--lysgrønn);
     font-size: 18px;
     padding: 10px;
-    border: 2px solid rgb(121, 163, 132);
+    border: 2px solid var(--mørkblå);
     border-radius: 10px;
     transition: transform 0.6s ease;
     scroll-margin-top: 150px;
@@ -365,7 +384,7 @@ html {
 
 .og>div:hover{
     transform: scale(1.05);
-    background-color: rgb(179, 218, 177);
+    background-color: var(--lysgrønn);
 }
 
 .og>div>p{
@@ -416,7 +435,7 @@ html {
 hr{
     border: none; 
     height: 2px; 
-    background-color: rgb(62, 93, 70);
+    background-color: var(--mørkgrønn);
     margin: 150px 0;
 }
 
@@ -432,9 +451,9 @@ hr{
         height: auto;
         width: auto;
     }
-    #lossy > img{
+    /* #lossy > img{
         width: auto;
-    }
+    } */
 
     .overføring{
         font-size: xx-large;
@@ -532,6 +551,10 @@ hr{
     #lossy{
         height: auto;
         width: auto;
+    }
+
+    #mainlogm>h1{
+        font-size: xx-large;
     }
     
 }
