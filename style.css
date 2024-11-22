@@ -222,7 +222,7 @@ p > a {
 }
 
 #lossy > img{
-    width: auto;
+   /*  width: auto; */
     height: 60%;
 }
 
@@ -432,9 +432,9 @@ hr{
         height: auto;
         width: auto;
     }
-    #lossy > img{
+    /* #lossy > img{
         width: auto;
-    }
+    } */
 
     .overføring{
         font-size: xx-large;
@@ -532,6 +532,10 @@ hr{
     #lossy{
         height: auto;
         width: auto;
+    }
+
+    #mainlogm>h1{
+        font-size: xx-large;
     }
     
 }
