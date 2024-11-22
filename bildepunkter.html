@@ -13,6 +13,7 @@
             height: 100vh;
             background-size: cover;
             position: relative;
+            
         }
 
         .bildepunkter-h1 {
@@ -73,7 +74,30 @@
             transition: transform 0.3s, filter 0.3s;
         }
 
+        @media (width <750px) {
 
+            .bildepunkter-forside {
+                background-size: cover;
+                background-position: center;
+            }
+            
+            .bildepunkter-h1 {
+                font-size: 30px;
+                font-weight: bold;
+
+            }
+        }
+
+        @media (width <1150) {
+
+            .bildepunkter-container {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                
+
+            }
+        }
 
 
     </style>
