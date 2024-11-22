@@ -1,147 +1,15 @@
-<title>Filstørrelse</title>
+<!DOCTYPE html>
+<html lang="en">
 
-<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
+    <title>Filstørrelse</title>
 
-
-    .filstørrelse-maintekst {
-      
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 100vh;
-        background-image: url(bilder/grønnfjell.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-
-  
+    <link rel="stylesheet" href="style.css">
 
 
-    .bilderdatamaskin {
-        width: 600px;
-      
-    }
-
-
-    .introfils-div {
-        display: grid;
-        grid-template-columns: 700px 1fr;
-        grid-auto-rows: auto;
-        align-items: center;
-        padding: 50px;
-        gap: 40px;
-        background-color: rgba(229, 243, 243, 0.952);
-    }
-
-    #tekst1filstørrelse {
-        font-size: 19px;
-        border: 2px solid black;
-        padding: 28px;
-        border-radius: 10px;
-        background-color:  #bde6baff;
-    }
-
-
-    .headfiler {
-        text-align: center;
-        font-size: 45px;
-
-    }
-
-
-
-    .gridfiler {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: auto;
-        gap: 100px 70px;
-        padding: 40px;
-        align-items: center;
-
-    }
-
-    .gridfiler>div>img:hover {
-        transform: scale(1.1); /* Zoomer ut */
-        transition: transform 0.3s, filter 0.3s;
-       
-    }
-
-    .gridfiler-tekst {
-        font-size: 17px;  
-    }
-
-
-
-    @media (width <1100px) {
-
-    .filstørrelse-maintekst {
-        font-size: 50px;
-        font-weight: bold;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 100vh;
-        background-image: url(bilder/grønnfjell.jpg);
-        background-size: cover;
-        background-position: center;
-        }   
-        
-    }
-
-
-    @media (width <722px) {
-
-    
-.filstørrelse-maintekst {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    background-image: url(bilder/grønnfjell.jpg);
-    background-size: cover;
-    background-position: center;
-    }   
-    
-}
-    @media (width <900px) {
-
-        
-
-        .introfils-div {
-            display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    min-height: 100vh;
-      
-        }
-       
-
-        .gridfiler {
-        display:block;
-        align-items: center;
-        padding: 40px;
-        }
-
-        .gridfiler>div {
-            margin: 50px;
-        }
-       
-    }
-
-
-  
-</style>
 </head>
 
 <body>
@@ -202,7 +70,7 @@
     <br>
     <br>
     <br>
-    
+
 
     <div style="background-color: black; width: 600px; height: 4px; margin: 0 auto; "></div>
 
@@ -219,8 +87,8 @@
     <br>
 
     <section>
-    
-    
+
+
 
         <div class="gridfiler" style="background-color: rgb(222, 218, 218);">
 
@@ -237,20 +105,22 @@
                     betraktelig uten et merkbart tap i bildekvalitet.
                 </p>
             </div>
-            
+
             <div>
                 <img src="bilder/elefantjpgbilde.png" alt="jpg" style="height: auto;">
 
             </div>
-        
+
         </div>
-        
-    
 
 
-        <div class="gridfiler" >
-           
-            <div class="gridfiler-tekst" >
+    </section>
+
+    <section>
+
+        <div class="gridfiler">
+
+            <div class="gridfiler-tekst">
                 <h1>Filformat PNG</h1>
                 <p> <b>Egner seg til:</b> Fotografier, ikoner, webgrafikk,
                     logoer og grafikk til animasjoner og spill.</p>
@@ -270,12 +140,16 @@
                 </p>
             </div>
             <div>
-                <img  src="bilder/pngblomst.png" alt="png" style="height: auto;">
+                <img src="bilder/pngblomst.png" alt="png" style="height: auto;">
             </div>
 
         </div>
 
-        <div class="gridfiler" style="background-color: rgb(222, 218, 218);"> 
+    </section>
+
+    <section>
+
+        <div class="gridfiler" style="background-color: rgb(222, 218, 218);">
 
             <div class="gridfiler-tekst">
                 <h1>Filformat GIF</h1>
@@ -284,15 +158,15 @@
 
                 <br>
 
-                <p> GIF (Graphics Interchange Format). 
+                <p> GIF (Graphics Interchange Format).
 
-                    GIF er et bildeformat med stillbilder som er satt 
-                    sammen til ei bildefil og oppleves som en kort filmsnutt eller animasjon. 
+                    GIF er et bildeformat med stillbilder som er satt
+                    sammen til ei bildefil og oppleves som en kort filmsnutt eller animasjon.
                     En GIF kan som regel lastes inn der du laster inn vanlige bilder.
 
-                    Du kjenner gjerne GIF-er fra sosiale medier – slike korte 
+                    Du kjenner gjerne GIF-er fra sosiale medier – slike korte
                     snutter med reaksjoner der noen ler, snubler, danser, er sint eller jubler.
-                    
+
 
                 </p>
 
@@ -304,31 +178,30 @@
 
         </div>
 
-
-
     </section>
 
     <footer>
-        <div>  
+        <div>
             <h1>Skrevet av:</h1>
             <ul>
-                <li>Iben</li>  
-                <li>Inger Helene</li> 
-                <li>Klara</li> 
-                <li>Silje</li> 
+                <li>Iben</li>
+                <li>Inger Helene</li>
+                <li>Klara</li>
+                <li>Silje</li>
             </ul>
         </div>
-        <div>  
+        <div>
             <h1>Kontakt oss:</h1>
             kontaktoss@gmail.com
         </div>
-        <div>  
+        <div>
             <h1>Her finner du oss!</h1>
-            <img src="https://www.google.com/maps/vt/data=iAo2aNc0XmRkJV8k8Jogau7czrJMku1vSIiy6kp8Xz5N9lXzrEVwleys-sXCfpSVFgJCy2nUM0pTgZvxcxvV2v_q9POExmH6PYjzX43nKSAsweaAlkr293vJOHQiRWfVA6ysCPpop5Nxp6wQO5ZPi02gF6iyiEwXBBVIubRh2hQtD8efNX-EWrMCA8XBXjSSQV84E_c2iob5NtUDIOWh_BjCC559SIZTgxHaF4QauMHGPs0AZxdX-fJLMIyfE8JXqsJqIwja7RUdo8FgnA" style="width: 400px;
-             height: auto;">    
+            <img src="https://www.google.com/maps/vt/data=iAo2aNc0XmRkJV8k8Jogau7czrJMku1vSIiy6kp8Xz5N9lXzrEVwleys-sXCfpSVFgJCy2nUM0pTgZvxcxvV2v_q9POExmH6PYjzX43nKSAsweaAlkr293vJOHQiRWfVA6ysCPpop5Nxp6wQO5ZPi02gF6iyiEwXBBVIubRh2hQtD8efNX-EWrMCA8XBXjSSQV84E_c2iob5NtUDIOWh_BjCC559SIZTgxHaF4QauMHGPs0AZxdX-fJLMIyfE8JXqsJqIwja7RUdo8FgnA"
+                style="width: 400px;
+             height: auto;">
         </div>
-    
-    </footer>  
+
+    </footer>
 
 </body>
 
