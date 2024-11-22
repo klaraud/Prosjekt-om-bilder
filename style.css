@@ -13,6 +13,17 @@ img {
     height: 100%;
 }
 
+/* GJØR AT TEKSTEN BLIR STØRRE PÅ HVER SLIDE*/
+
+
+
+.hoved-tekst:hover {
+    letter-spacing: 15px;
+    transform: scale(1.03);
+    transition: 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
 
 footer{
     background-color: var(--lysblå);
