@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,172 +10,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
-    <style>
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    
-}
-
-
-
-.rgb-maintekst {
-    font-size: 80px;
-    font-weight: bold;
-    text-align: center;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-    height: 100vh;
-    background-image: url(bilder/boat.jpg);
-    background-size: cover;
-    background-position: center;
-    text-shadow: 5px 5px 5px  rgb(2, 32, 60);
-    color: white;
-
-}
-
-
-
-
-.bilderfarger {
-    width: 200px;
-    margin-right: 100px;
-}
-
-
-.rgb-cmyk-div {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #1c7c54ff;
-padding-top: 50px;
-padding-bottom: 50px;
-
-}
-
-#tekst1rgb {
-font-size: 20px;
-margin-left: 100px;
-margin-right: 120px;
-}
-
-.navnoverbilde {
-    margin-left: 80px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.rgbfarger-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: 100px;
-    text-align: center;
-    margin: 80px;
-    gap: 20px;
-}
-
-.rgbfarger-grid>div>p {
-   margin-top: 40px;
-    
-}
-
-.rgbfarger-grid>div {
-    border: 2px solid rgb(35, 29, 29);
-}
-
-.rgbfarger-grid>div:hover {
-    transform: scale(1.05); /* Zoom inn */
-    transition: transform 0.6s, filter 0.3s;
-}
-
-
-.tekst2rgb {
-    text-align: center;
-    margin: 50px 50px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-
-.h1rgb>span {
-    color: black;
-    font-size: 39px;
-}   
-
-#r:hover {
-    color: red;
-    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-#g:hover {
-    color: green;
-    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-#b:hover {
-    color: blue;
-    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.tekst2rgb>p {
-    margin-top: 8px;
-}
-
-@media (width <722px) {
-
-    
-.rgb-maintekst {
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    background-image: url(bilder/boat.jpg);
-    background-size: cover;
-    background-position: center;
-    }   
-    
-}
-
-@media (width <900px) {
-
-
-.rgb-cmyk-div {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    min-height: 100vh;
-    gap: 40px;
-
-}
-
-.tekst2rgb {
-    text-align: center;
-    margin: 50px 50px;
-    padding-left: 75px;
-    padding-right: 75px;
-}
-
-
-}
-    </style>
-
-    
 </head>
+
 <body>
 
 
@@ -182,10 +27,10 @@ margin-right: 120px;
         <nav class="navigeringdiv">
             <a href="index.html" class="hjem"> Hjem </a>
             <a href="bildepunkter.html"> Bildepunkter </a>
-            <a href="Lagring-og-minne.html"> Lagring og minne  </a>
+            <a href="Lagring-og-minne.html"> Lagring og minne </a>
             <a href="farger-rgb.html"> Farger - RGB </a>
             <a href="overføring-fargebilder.html"> Lagring og overføring av fargebilder</a>
-            <a href="kompresjon.html"> Kompresjon av bilder  </a>
+            <a href="kompresjon.html"> Kompresjon av bilder </a>
             <a href="filstørrelse.html"> Filstørrelse </a>
         </nav>
     </header>
@@ -193,120 +38,124 @@ margin-right: 120px;
 
 
 
- <div class="rgb-maintekst"> 
-    <h1 class="hoved-tekst">Farger</h1>
- </div>
-
-
-
-<article>
-<div class="rgb-cmyk-div">
-    <div id="tekst1rgb">
-
-        <h1>Farger på datamaskinen</h1>
-      
-        <p> 
-            For å få farger på bildene våre, bruker man ofte farger på bildepunktene våre
-            Datamaskinen trenger flere tall for å kunne beskrive hvert punkt.
-            De to vanligste måtene å beskrive farger på er ved hjelp av 
-            <b> RGB - verdier</b> eller <b>CMYK - verdier</b> 
-        </p> 
+    <div class="rgb-maintekst">
+        <h1 class="hoved-tekst">Farger</h1>
     </div>
 
 
-    
-        <div>
-            <p class="navnoverbilde"> RGB</p>
-            <img class="bilderfarger" src="bilder/rgb.png" alt="rgb fargene">
+
+    <article>
+        <div class="rgb-cmyk-div">
+            <div id="tekst1rgb">
+
+                <h1>Farger på datamaskinen</h1>
+
+                <p>
+                    For å få farger på bildene våre, bruker man ofte farger på bildepunktene våre
+                    Datamaskinen trenger flere tall for å kunne beskrive hvert punkt.
+                    De to vanligste måtene å beskrive farger på er ved hjelp av
+                    <b> RGB - verdier</b> eller <b>CMYK - verdier</b>
+                </p>
+            </div>
+
+
+
+            <div>
+                <p class="navnoverbilde"> RGB</p>
+                <img class="bilderfarger" src="bilder/rgb.png" alt="rgb fargene">
+            </div>
+
+            <div class="bildefargerdiv">
+                <p class="navnoverbilde"> CMYK </p>
+                <img class="bilderfarger" src="bilder/CMYK.png" alt="cmyk fargene">
+            </div>
+
+
+
+        </div>
+    </article>
+
+    <article>
+
+        <div class="tekst2rgb">
+            <h1 class="h1rgb">Hvordan fungerer <span id="r"> R </span> <span id="g"> G </span> <span id="b"> B </span>
+            </h1>
+
+            <p> RGB-fargemodellen bruker additiv fargeblanding.
+                Den kombinerer lys fra primærfargene rød, grønn og blå for å lage en rekke fargenyanser.
+
+                Hver fargekanal har en intensitet som strekker seg fra null (fullstendig mørke) til 255 (maksimal
+                lysstyrke).
+                Når alle tre fargene blandes med laveste intensitet, skaper de svart.
+                Når de kombineres med maksimal intensitet, gir de hvitt.
+
+                Det fine med RGB-fargemodellen ligger i hvordan disse intensitetene
+                blandes for å skape et spekter av farger som spenner fra mørke nyanser til lyse nyanser.
+            </p>
+
         </div>
 
-        <div class="bildefargerdiv">
-            <p class="navnoverbilde"> CMYK </p>
-            <img class="bilderfarger" src="bilder/CMYK.png" alt="cmyk fargene">
-        </div>
-
-    
- 
-</div>
-</article>
-
-<article>
- 
-    <div class="tekst2rgb">
-        <h1 class="h1rgb">Hvordan fungerer <span id="r"> R </span> <span id="g"> G </span> <span id="b"> B </span></h1>
-
-        <p> RGB-fargemodellen bruker additiv fargeblanding.
-             Den kombinerer lys fra primærfargene rød, grønn og blå for å lage en rekke fargenyanser.
-
-            Hver fargekanal har en intensitet som strekker seg fra null (fullstendig mørke) til 255 (maksimal lysstyrke).
-             Når alle tre fargene blandes med laveste intensitet, skaper de svart.
-              Når de kombineres med maksimal intensitet, gir de hvitt.
-            
-            Det fine med RGB-fargemodellen ligger i hvordan disse intensitetene 
-            blandes for å skape et spekter av farger som spenner fra mørke nyanser til lyse nyanser.
-        </p>
-
-    </div>
-
-</article>
+    </article>
 
 
-<section>
+    <section>
 
-    <div class="rgbfarger-grid">
+        <div class="rgbfarger-grid">
 
-        <div style="background-color: rgb(0, 0, 0); color: white;">
-            <p>RGB (0, 0, 0)</p>
-        </div>
+            <div style="background-color: rgb(0, 0, 0); color: white;">
+                <p>RGB (0, 0, 0)</p>
+            </div>
 
-        <div style="background-color: rgb(255, 255, 255); color: black;">
-            <p>RGB (255, 255, 255)</p>
-        </div>
-        
+            <div style="background-color: rgb(255, 255, 255); color: black;">
+                <p>RGB (255, 255, 255)</p>
+            </div>
 
-        <div style="background-color: rgb(164, 72, 233); color: white;"> 
-            <p>RGB (164, 72, 233)</p>
-        </div>
-        
-        <div style="background-color: rgb(87, 190, 107); color: black;"> 
-            <p>RGB (87, 190, 107)</p>
-        </div>
 
-        <div style="background-color: rgb(244, 105, 168); color: white;">  
-            <p>RGB (244, 105, 168)</p>
-        </div>
+            <div style="background-color: rgb(164, 72, 233); color: white;">
+                <p>RGB (164, 72, 233)</p>
+            </div>
 
-        <div style="background-color: rgb(66, 219, 215); color: black;"> 
-            <p>RGB (66, 219, 215)</p>
+            <div style="background-color: rgb(87, 190, 107); color: black;">
+                <p>RGB (87, 190, 107)</p>
+            </div>
+
+            <div style="background-color: rgb(244, 105, 168); color: white;">
+                <p>RGB (244, 105, 168)</p>
+            </div>
+
+            <div style="background-color: rgb(66, 219, 215); color: black;">
+                <p>RGB (66, 219, 215)</p>
+            </div>
+
+
         </div>
 
 
-    </div>
+    </section>
 
-
-</section>
-    
     <footer>
-        <div>  
+        <div>
             <h1>Skrevet av:</h1>
             <ul>
-                <li>Iben</li>  
-                <li>Inger Helene</li> 
-                <li>Klara</li> 
-                <li>Silje</li> 
-                <li>Thea</li> 
+                <li>Iben</li>
+                <li>Inger Helene</li>
+                <li>Klara</li>
+                <li>Silje</li>
+                <li>Thea</li>
             </ul>
         </div>
-        <div>  
+        <div>
             <h1>Kontakt oss:</h1>
             kontaktoss@gmail.com
         </div>
 
-        <div>  
+        <div>
             <h1>Her finner du oss!</h1>
-            <img src="https://www.google.com/maps/vt/data=iAo2aNc0XmRkJV8k8Jogau7czrJMku1vSIiy6kp8Xz5N9lXzrEVwleys-sXCfpSVFgJCy2nUM0pTgZvxcxvV2v_q9POExmH6PYjzX43nKSAsweaAlkr293vJOHQiRWfVA6ysCPpop5Nxp6wQO5ZPi02gF6iyiEwXBBVIubRh2hQtD8efNX-EWrMCA8XBXjSSQV84E_c2iob5NtUDIOWh_BjCC559SIZTgxHaF4QauMHGPs0AZxdX-fJLMIyfE8JXqsJqIwja7RUdo8FgnA" style="width: 400px;
-            height: auto;">    
+            <img src="https://www.google.com/maps/vt/data=iAo2aNc0XmRkJV8k8Jogau7czrJMku1vSIiy6kp8Xz5N9lXzrEVwleys-sXCfpSVFgJCy2nUM0pTgZvxcxvV2v_q9POExmH6PYjzX43nKSAsweaAlkr293vJOHQiRWfVA6ysCPpop5Nxp6wQO5ZPi02gF6iyiEwXBBVIubRh2hQtD8efNX-EWrMCA8XBXjSSQV84E_c2iob5NtUDIOWh_BjCC559SIZTgxHaF4QauMHGPs0AZxdX-fJLMIyfE8JXqsJqIwja7RUdo8FgnA"
+                style="width: 400px;
+            height: auto;">
         </div>
-    </footer> 
+    </footer>
 </body>
+
 </html>

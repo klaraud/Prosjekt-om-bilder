@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-   
+
     font-family: "Roboto Mono";
 }
 
@@ -13,9 +14,15 @@ img {
     height: 100%;
 }
 
-/* GJØR AT TEKSTEN BLIR STØRRE PÅ HVER SLIDE*/
+/* GJØR AT TEKSTEN BLIR STØRRE PÅ HVER SLIDE + FARGE*/
 
 
+.hoved-tekst {
+    text-shadow: 5px 5px 5px rgb(2, 32, 60);
+    color: white;
+    font-size: 130px;
+    font-weight: bold;
+}
 
 .hoved-tekst:hover {
     letter-spacing: 15px;
@@ -23,9 +30,12 @@ img {
     transition: 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+/*FOOTER*/
 
 
-footer{
+
+
+footer {
     background-color: var(--lysblå);
     height: 50vh;
     border-top: 2px solid rgb(92, 136, 180);
@@ -36,69 +46,71 @@ footer{
 
 }
 
-footer h1{
+footer h1 {
     margin-bottom: 30px;
 }
 
-footer li{
+footer li {
     margin-bottom: 20px;
 
 }
 
-footer>div{
+footer>div {
     overflow: hidden;
 }
 
-footer div img{
-    max-width: 100%; 
-    height: auto; 
+footer div img {
+    max-width: 100%;
+    height: auto;
 }
 
-.navigeringdiv{
-	background-color: #85c7f2ff;
-	display: grid;
-	grid-template-columns:  auto repeat(3,1fr);
-	align-items: center;
-	justify-items: center;
+.navigeringdiv {
+    background-color: #85c7f2ff;
+    display: grid;
+    grid-template-columns: auto repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
     grid-template-rows: 50px 50px;
     position: fixed;
     z-index: 3;
     width: 100%;
 }
 
-nav a{
-	padding-left: 40px;
-	padding-right: 40px;
-	color: white;
-	text-decoration: none;
+nav a {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
 
-	
+
 }
-nav .hjem{
-	background-color: #235789ff ;
-	font-weight: 800;
-	font-size: 32px;
+
+nav .hjem {
+    background-color: #235789ff;
+    font-weight: 800;
+    font-size: 32px;
     grid-row: 1/3;
     height: 100%;
     padding-top: 20%;
-  
-    
-    
+
+
+
 }
 
 nav a:hover {
-color: black;
+    color: black;
 }
 
 
-:root{
+:root {
     --mørkblå: #235789ff;
     --lysgrønn: #bde6baff;
     --rosa: #e1b7d2ff;
     --mørkgrønn: #1c7c54ff;
     --lysblå: #85c7f2ff;
 }
-main{
+
+main {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -107,12 +119,12 @@ main{
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-    
+
     color: white;
-    
+
 }
 
-.lego{
+.lego {
     display: flex;
     background-color: #e1b7d2ff;
     text-align: center;
@@ -122,14 +134,16 @@ main{
     color: white;
 }
 
-p > a {
+p>a {
     color: white;
 }
-.lego > img{
+
+.lego>img {
     border: solid 5px #235789ff;
     border-radius: 20px;
 }
-.lego > p{
+
+.lego>p {
     border: 5px solid #235789ff;
     margin: 20px;
     padding: 20px;
@@ -137,18 +151,19 @@ p > a {
     font-size: 15px;
 }
 
-.lego>p:hover{
+.lego>p:hover {
     transition: 2s;
     padding: 40px;
     font-size: 20px;
 }
-.lego>img:hover{
+
+.lego>img:hover {
     height: 87vh;
     transition: 2s;
 }
 
 
-#mainlogm{
+#mainlogm {
     background-image: url("bilder/sunset.jpg");
     background-size: cover;
     background-position: bottom;
@@ -156,13 +171,13 @@ p > a {
 }
 
 
-#mainkb{
+#mainkb {
     background-image: url("bilder/snofjell.jpg");
     background-size: cover;
     background-position: bottom;
 }
 
-.holderkomp{
+.holderkomp {
     display: flex;
     background-color: #235789ff;
     height: 40vh;
@@ -170,7 +185,7 @@ p > a {
     color: white;
 }
 
-.komp{
+.komp {
     display: flex;
     height: auto;
     width: 70%;
@@ -186,7 +201,7 @@ p > a {
 
 }
 
-.holder{
+.holder {
     height: auto;
     width: 100%;
     background-color: #235789ff;
@@ -195,7 +210,7 @@ p > a {
     justify-content: space-around;
 }
 
-.boks{
+.boks {
     padding: 20px;
     margin: 40px;
     border: solid #85c7f2ff 5px;
@@ -205,17 +220,17 @@ p > a {
     color: white;
 }
 
-.boks:hover{
+.boks:hover {
     padding: 50px;
     transition: 2s;
     background-color: #e1b7d2ff;
-   
+
 
 }
 
-.komp:hover{
+.komp:hover {
     background-color: #e1b7d2ff;
-   transition: 2s;
+    transition: 2s;
 }
 
 #lossy {
@@ -229,31 +244,31 @@ p > a {
     background-color: #235789ff;
     height: auto;
     width: auto;
-   
+
 }
 
-#lossy > img{
-   /*  width: auto; */
+#lossy>img {
+    /*  width: auto; */
     height: 60%;
 }
 
-#lossy:hover{
+#lossy:hover {
     padding: 50px;
     transition: 2s;
     background-color: #e1b7d2ff;
-   
+
 
 }
 
 html {
     scroll-behavior: smooth;
-  } 
+}
 
-.b_overføring{
+.b_overføring {
     height: 120vh;
     background-image: url(bilder/fugl.jpg);
-    background-size: cover; 
-	background-position: center;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
     opacity: 90%;
     display: flex;
@@ -262,7 +277,7 @@ html {
     justify-content: center;
 }
 
-.overføring{
+.overføring {
     display: flex;
     align-items: center;
     text-align: center;
@@ -270,7 +285,7 @@ html {
     margin-bottom: 40px;
 }
 
-.onav{
+.onav {
     display: flex;
     align-items: center;
     text-align: center;
@@ -281,9 +296,9 @@ html {
     padding: 20px;
     font-size: 20px;
     color: white;
-    }
+}
 
-.om{
+.om {
     height: auto;
     padding: 20px;
     background-color: var(--mørkgrønn);
@@ -293,7 +308,7 @@ html {
 }
 
 
-.tre{
+.tre {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -301,7 +316,7 @@ html {
 }
 
 
-.tre>div{
+.tre>div {
     height: 140px;
     width: 450px;
     border-radius: 10px;
@@ -311,59 +326,60 @@ html {
     border: 3px solid var(--mørkblå);
     color: white;
     text-align: center;
-    position: relative; 
+    position: relative;
     overflow: hidden;
     margin-right: 20px;
 }
 
-.tre>div:hover{
+.tre>div:hover {
     transform: scale(1.07);
     background-image: none;
 }
 
-.tre>div .otext{
+.tre>div .otext {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.5s ease;
-    position: absolute; 
-    top: 35%; 
+    position: absolute;
+    top: 35%;
     left: 25%;
-    transform: translate(-15%, -30%); 
+    transform: translate(-15%, -30%);
     font-size: 18px;
 }
 
-.tre > div:hover .otext {
+.tre>div:hover .otext {
     opacity: 1;
     visibility: visible;
 }
 
-.tre1{
+.tre1 {
     background-image: url(bilder/bit1.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.tre2{
+.tre2 {
     background-image: url(bilder/bit2.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.tre3{
+.tre3 {
     background-image: url(bilder/bit3.jpg);
     background-size: cover;
     background-position: center;
 }
 
 
-.og{
+.og {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(220px, auto);;
+    grid-auto-rows: minmax(220px, auto);
+    ;
     gap: 40px;
 }
 
-.og>div{
+.og>div {
     background-color: var(--lysgrønn);
     font-size: 18px;
     padding: 10px;
@@ -374,40 +390,40 @@ html {
 }
 
 
-.og>div:hover{
+.og>div:hover {
     transform: scale(1.05);
     background-color: var(--lysgrønn);
 }
 
-.og>div>p{
+.og>div>p {
     margin-top: 30px;
 }
 
-.og>div>ul{
+.og>div>ul {
     margin: 20px 0px 0px 15px;
 }
 
 
-#d1{
+#d1 {
     grid-row: 1/3;
 }
 
-#d3{
+#d3 {
     grid-row: 3/5;
 }
 
-#d4{
+#d4 {
     grid-row: 2/4;
     background-image: url(bilder/bit4.jpg);
     background-size: cover;
     background-position: center;
 }
 
-#d4:hover{
+#d4:hover {
     background-image: none;
 }
 
-.to{
+.to {
     opacity: 0;
     transition: opacity 0.3s ease;
 }
@@ -415,80 +431,84 @@ html {
 .to:hover {
     opacity: 1;
 }
-.to>h3{
+
+.to>h3 {
     margin-bottom: 20px;
 }
 
-.to>ul{
+.to>ul {
     margin-left: 25px;
 
 }
 
-hr{
-    border: none; 
-    height: 2px; 
+hr {
+    border: none;
+    height: 2px;
     background-color: var(--mørkgrønn);
     margin: 150px 0;
 }
 
 
-@media (width < 700px){
-    .holder{
+@media (width < 700px) {
+    .holder {
         display: flex;
-        flex-direction: column ;
+        flex-direction: column;
         height: auto;
     }
-    
-    #lossy{
+
+    #lossy {
         height: auto;
         width: auto;
     }
+
     /* #lossy > img{
         width: auto;
     } */
 
-    .overføring{
+    .overføring {
         font-size: xx-large;
     }
 
-    .onav{
+    .onav {
         flex-direction: column;
     }
 
-    .onav>a{
+    .onav>a {
         margin: 15px 0px;
     }
 
-   .om{
-    height: auto;
-   }
+    .om {
+        height: auto;
+    }
 
-    .tre{
+    .tre {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .tre>div{
+    .tre>div {
         width: 90%;
         margin-top: 30px;
         height: 126px;
     }
 
-    .tre>div .otext{
+    .tre>div .otext {
         font-size: 90%;
-        top: 39%; 
+        top: 39%;
         left: 10%;
-        transform: translate(-5%, -30%); 
+        transform: translate(-5%, -30%);
     }
 
-    .og{
+    .og {
         grid-template-columns: 1fr;
         grid-auto-rows: auto;
     }
 
-    #d1, #d3, #d4 {
-        grid-row: auto; 
+    #d1,
+    #d3,
+    #d4 {
+        grid-row: auto;
     }
 
     .navigeringdiv a:not(.hjem) {
@@ -496,78 +516,84 @@ hr{
     }
 
 
-    
+
 }
 
-@media (width < 840px){
-    .lego{
+@media (width < 840px) {
+    .lego {
         display: flex;
         flex-direction: column;
         height: auto;
     }
-    footer{
+
+    footer {
         flex-direction: column;
         justify-content: flex-start;
         height: auto;
     }
 
-    footer>div{
+    footer>div {
         flex-direction: column;
         margin-left: 40px;
         width: 70%;
     }
-   
-    footer>div>img{
+
+    footer>div>img {
         width: 70%;
     }
 
-   
+
 }
 
-@media (width <600px){
-    .holder{
+@media (width <600px) {
+    .holder {
         height: auto;
     }
-    .holderkomp{
+
+    .holderkomp {
         height: auto;
     }
-    .komp{
+
+    .komp {
         height: auto;
     }
-    .boks{
-        height:auto;
+
+    .boks {
+        height: auto;
     }
-    #mainkb > h1{
+
+    #mainkb>h1 {
         font-size: 60px;
     }
-    #lossy{
+
+    #lossy {
         height: auto;
         width: auto;
     }
 
-    #mainlogm>h1{
+    #mainlogm>h1 {
         font-size: xx-large;
     }
-    
+
 }
 
-@media (width<500px){
-    .tre>div .otext{
+@media (width<500px) {
+    .tre>div .otext {
         font-size: 75%;
-        top: 39%; 
+        top: 39%;
         left: 10%;
-        transform: translate(-5%, -30%); 
+        transform: translate(-5%, -30%);
     }
 }
 
 
-aside{
-   height: 100vh;
+aside {
+    height: 100vh;
     width: auto;
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     background-color: #235789ff;
     font-size: 25px;
 
