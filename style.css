@@ -13,6 +13,17 @@ img {
     height: 100%;
 }
 
+/* GJØR AT TEKSTEN BLIR STØRRE PÅ HVER SLIDE*/
+
+
+
+.hoved-tekst:hover {
+    letter-spacing: 15px;
+    transform: scale(1.03);
+    transition: 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
 
 footer{
     background-color: var(--lysblå);
@@ -222,7 +233,7 @@ p > a {
 }
 
 #lossy > img{
-    width: auto;
+   /*  width: auto; */
     height: 60%;
 }
 
@@ -434,9 +445,9 @@ hr{
         height: auto;
         width: auto;
     }
-    #lossy > img{
+    /* #lossy > img{
         width: auto;
-    }
+    } */
 
     .overføring{
         font-size: xx-large;
@@ -534,6 +545,10 @@ hr{
     #lossy{
         height: auto;
         width: auto;
+    }
+
+    #mainlogm>h1{
+        font-size: xx-large;
     }
     
 }
